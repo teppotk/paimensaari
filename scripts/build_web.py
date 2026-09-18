@@ -138,12 +138,16 @@ def build_news():
         fm, body = front_matter(md.read_text(encoding="utf-8"))
         body = re.sub(r"^#\s+.*$", "", body, count=1, flags=re.M)          # title
         body = re.sub(r"^\d{2}\.\d{2}\.\d{4}\s*$", "", body, count=1, flags=re.M)
+        sisalto = md_to_html(body, "assets/web/large/")
+        eka = re.search(r'<img src="assets/web/large/([^"]+)"', sisalto)
         items.append(
             {
                 "id": fm.get("news_id", md.stem),
                 "date": fm.get("date", ""),
                 "title": fm.get("title", ""),
-                "html": md_to_html(body, "assets/web/large/"),
+                # Listan pikkukuva: uutisen ensimmäinen kuva pienennettynä.
+                "kuva": ("assets/web/thumb/" + eka.group(1)) if eka else "",
+                "html": sisalto,
             }
         )
     items.sort(key=lambda i: (i["date"], i["id"]), reverse=True)

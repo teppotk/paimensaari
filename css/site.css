@@ -144,10 +144,23 @@ main > p:first-of-type { margin-top: 0; }
 .uutislista { list-style: none; margin: 0; padding: 0; }
 .uutislista li { border-bottom: 1px solid var(--rule); }
 .uutislista a {
-  display: grid; gap: 0 1.4rem; padding: 0.85rem 0;
+  display: grid; gap: 0.5rem 1.4rem; padding: 0.85rem 0;
+  grid-template-columns: 1fr auto; align-items: start;
   text-decoration: none; color: var(--ink);
 }
-@media (min-width: 34rem) { .uutislista a { grid-template-columns: 6.2rem 1fr; } }
+.uutislista__pvm { grid-column: 1; }
+.uutislista__otsikko { grid-column: 1; }
+.uutislista__kuva {
+  grid-column: 2; grid-row: 1 / span 2;
+  width: 6.5rem; height: 4.9rem; object-fit: cover;
+  background: var(--paper-sunk);
+}
+@media (min-width: 34rem) {
+  .uutislista a { grid-template-columns: 6.2rem 1fr auto; }
+  .uutislista__pvm { grid-column: 1; grid-row: 1; }
+  .uutislista__otsikko { grid-column: 2; grid-row: 1; }
+  .uutislista__kuva { grid-column: 3; grid-row: 1; }
+}
 .uutislista a:hover .uutislista__otsikko { text-decoration: underline; }
 .uutislista__pvm { color: var(--ink-soft); font-size: 0.95rem; font-variant-numeric: tabular-nums; }
 .uutislista__otsikko { font-weight: 500; }

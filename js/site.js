@@ -39,8 +39,10 @@
           a.href = "uutiset.html#" + u.id;
           a.innerHTML =
             '<span class="uutislista__pvm">' + pvm(u.date) + "</span>" +
-            '<span class="uutislista__otsikko"></span>';
+            '<span class="uutislista__otsikko"></span>' +
+            (u.kuva ? '<img class="uutislista__kuva" src="" alt="" loading="lazy" width="120" height="90">' : "");
           a.querySelector(".uutislista__otsikko").textContent = u.title;
+          if (u.kuva) a.querySelector(".uutislista__kuva").src = u.kuva;
           li.appendChild(a);
           tuoreet.appendChild(li);
         });
@@ -119,8 +121,10 @@
           a.href = "#" + u.id;
           a.innerHTML =
             '<span class="uutislista__pvm">' + pvm(u.date) + "</span>" +
-            '<span class="uutislista__otsikko"></span>';
+            '<span class="uutislista__otsikko"></span>' +
+            (u.kuva ? '<img class="uutislista__kuva" src="" alt="" loading="lazy" width="120" height="90">' : "");
           a.querySelector(".uutislista__otsikko").textContent = u.title;
+          if (u.kuva) a.querySelector(".uutislista__kuva").src = u.kuva;
           li.appendChild(a);
           ul.appendChild(li);
         });
