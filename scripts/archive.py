@@ -54,8 +54,22 @@ _manifest = []
 
 
 # --------------------------------------------------------------------------- io
+def encode_url(url):
+    """urllib refuses non-ASCII URLs; a few old image links contain ä."""
+    parts = urllib.parse.urlsplit(url)
+    return urllib.parse.urlunsplit(
+        (
+            parts.scheme,
+            parts.netloc.encode("idna").decode("ascii") if not parts.netloc.isascii() else parts.netloc,
+            urllib.parse.quote(parts.path, safe="/%:@"),
+            urllib.parse.quote(parts.query, safe="=&%+"),
+            parts.fragment,
+        )
+    )
+
+
 def fetch_bytes(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    req = urllib.request.Request(encode_url(url), headers={"User-Agent": UA})
     for attempt in range(3):
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
@@ -74,7 +88,7 @@ def fetch_text(url):
 
 
 def head_ok(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA}, method="HEAD")
+    req = urllib.request.Request(encode_url(url), headers={"User-Agent": UA}, method="HEAD")
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
             return r.status == 200
@@ -147,6 +161,34 @@ def download(url, dest):
 
 
 # ----------------------------------------------------------------------- helpers
+THUMB_RE = re.compile(r"/api/thumbnail\?img=([^&]+)")
+_taken = {}
+
+
+def resolve_image(url):
+    """The old site served some images through a 150 px thumbnail endpoint;
+    its img= parameter names the full-size file, which is what we want."""
+    m = THUMB_RE.search(url)
+    if m:
+        target = urllib.parse.unquote(m.group(1))
+        if target.startswith("/"):
+            return urllib.parse.urljoin(BASE, target)
+    return url
+
+
+def image_name(url, fallback):
+    """A filename that is unique per source URL — several sources used to
+    collapse onto the same name and silently overwrite each other."""
+    name = Path(urllib.parse.urlparse(url).path).name
+    if not name or "." not in name:
+        name = "%s.jpg" % slugify(name or fallback, fallback)
+    if _taken.get(name, url) != url:
+        stem, _, ext = name.rpartition(".")
+        name = "%s-%s.%s" % (stem, abs(hash(url)) % 10000, ext)
+    _taken[name] = url
+    return name
+
+
 def slugify(text, fallback="kuva"):
     text = unicodedata.normalize("NFKD", (text or "").strip().lower())
     text = text.replace("ä", "a").replace("ö", "o").replace("å", "a")
@@ -222,13 +264,14 @@ def archive_pages():
                 if dest:
                     url_map[img["url"]] = "../../assets/photos/uutiset/" + dest.name
                 continue
-            host = urllib.parse.urlparse(img["url"]).netloc
+            source = resolve_image(img["url"])
+            host = urllib.parse.urlparse(source).netloc
             if "kotisivukone" not in host and "paimensaari" not in host:
                 continue
-            name = Path(urllib.parse.urlparse(img["url"]).path).name
+            name = image_name(source, "%s-%d" % (slug, n))
             dest = ROOT / "assets" / "photos" / "sivut" / name
             try:
-                download(img["url"], dest)
+                download(source, dest)
             except Exception as e:
                 print("  !! kuva epaonnistui %s (%s)" % (img["url"], e))
                 continue
@@ -298,13 +341,14 @@ def archive_news():
                 if dest:
                     url_map[img["url"]] = "../../assets/photos/uutiset/" + dest.name
                 continue
-            host = urllib.parse.urlparse(img["url"]).netloc
+            source = resolve_image(img["url"])
+            host = urllib.parse.urlparse(source).netloc
             if "kotisivukone" not in host and "paimensaari" not in host:
                 continue
-            name = Path(urllib.parse.urlparse(img["url"]).path).name
+            name = image_name(source, "uutinen-%s-%d" % (news_id, n))
             dest = ROOT / "assets" / "photos" / "uutiset" / name
             try:
-                download(img["url"], dest)
+                download(source, dest)
             except Exception as e:
                 print("  !! kuva epaonnistui %s (%s)" % (img["url"], e))
                 continue

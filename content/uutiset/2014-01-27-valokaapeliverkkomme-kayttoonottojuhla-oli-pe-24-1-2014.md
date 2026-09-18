@@ -15,7 +15,7 @@ images:
 
 
 
- ![](../../assets/photos/uutiset/thumbnail)
+ ![](../../assets/photos/uutiset/pia_viitanen.jpg)
 
 **Paimensaaren valokaapeliverkon käyttöönottojuhla oli perjantaina 24.1.2014 klo 15 alkaen Toimintakeskus Suvannossa.**
 

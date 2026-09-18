@@ -32,11 +32,28 @@ python3 scripts/archive.py all --offline    # muunna uudelleen archive/raw/-kopi
 
 Skriptit eivät vaadi asennettavia riippuvuuksia — pelkkä Python 3 riittää.
 
-## Vaihe 2: uusi sivusto (kesken)
+## Vaihe 2: uusi sivusto
 
 Toteutus on staattista HTML/CSS/JS:ää ilman käännösvaihetta: repositorion tiedostot ovat
 sellaisenaan se, mitä GitHub Pages tarjoilee.
 
 ```bash
 python3 -m http.server 8000     # esikatselu osoitteessa http://localhost:8000
+```
+
+Sivut: `index.html`, `uutiset.html`, `rantasauna.html`, `valokaapeli.html`, `kuolimo.html`,
+`galleria.html`, `ilmoitukset.html`, `yhteystiedot.html`. Vanhan sivuston kymmenen
+valikkokohtaa tiivistyivät kahdeksaan: videoklipit siirtyivät gallerian yhteyteen ja
+palautelomake yhteystietoihin, koska GitHub Pages ei voi ajaa lomakkeen vastaanottoa.
+
+Uutiset ja kuvagalleria eivät ole omia HTML-sivujaan, vaan selain hakee ne
+`data/uutiset.json`- ja `data/galleria.json`-tiedostoista. Yksittäiseen uutiseen pääsee
+osoitteella `uutiset.html#<uutisen-id>`.
+
+Julkaistavat kuvat ovat pienennettyjä versioita (`assets/web/`); alkuperäiset täysikokoiset
+kuvat säilyvät `assets/photos/`-hakemistossa säilytyskopioina.
+
+```bash
+python3 scripts/build_web.py            # pienennä kuvat ja päivitä JSON
+python3 scripts/build_web.py --data     # pelkkä JSON
 ```

@@ -16,6 +16,6 @@ images:
 
 
 
- ![](../../assets/photos/uutiset/thumbnail)
+ ![](../../assets/photos/uutiset/20131010_135023.jpg)
 
 ![20131010_135023.jpg](../../assets/photos/uutiset/20131010_135023.jpg)Tänään kokosimme ja asensimme Arton kanssa EU infotaulut Peltoinlahdentien ja Nikkarintien risteykseen ja Paimensaarentien alkuun. Jos havaitsette, että taulu on kallistunut niin olkaa hyvä ja suoristakaa taulu.

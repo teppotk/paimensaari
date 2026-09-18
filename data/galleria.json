@@ -1,0 +1,734 @@
+[
+ {
+  "slug": "valokaapeli",
+  "title": "Valokaapeli",
+  "trail": [
+   "Valokaapeli"
+  ],
+  "photos": [
+   {
+    "file": "valokaapeli/tien-alitus-1381486821320_1.jpg",
+    "caption": "tien_alitus"
+   },
+   {
+    "file": "valokaapeli/valokaapeleiden-jakokaivot-1381497369200_1.jpg",
+    "caption": "valokaapeleiden_jakokaivot"
+   },
+   {
+    "file": "valokaapeli/valokaapelikelat-1381497381588_1.jpg",
+    "caption": "valokaapelikelat"
+   },
+   {
+    "file": "valokaapeli/eu-kyltti-1381923804363_1.jpg",
+    "caption": "eu-kyltti"
+   },
+   {
+    "file": "valokaapeli/kaivutyot-alkaneet-16-10-2013-1381937814602_1.jpg",
+    "caption": "kaivutyot_alkaneet_16.10.2013"
+   },
+   {
+    "file": "valokaapeli/kaivutyot-1381937885763_1.jpg",
+    "caption": "kaivutyot"
+   },
+   {
+    "file": "valokaapeli/kaapelin-alkupaan-maahanlasku-1382011319988_1.jpg",
+    "caption": "kaapelin_alkupaan_maahanlasku"
+   },
+   {
+    "file": "valokaapeli/kaapelinlasku-suvannon-keskukseen-1382011328397_1.jpg",
+    "caption": "kaapelinlasku_suvannon_keskukseen"
+   },
+   {
+    "file": "valokaapeli/ketjussa-1382011337585_1.jpg",
+    "caption": "ketjussa"
+   },
+   {
+    "file": "valokaapeli/ketjussa2-1382011345869_1.jpg",
+    "caption": "ketjussa2"
+   },
+   {
+    "file": "valokaapeli/lasku-1382011404263_1.jpg",
+    "caption": "lasku"
+   },
+   {
+    "file": "valokaapeli/talkoot-17-10-2013-1382011412448_1.jpg",
+    "caption": "talkoot_17.10.2013"
+   },
+   {
+    "file": "valokaapeli/talkoovakea-1382011419154_1.jpg",
+    "caption": "talkoovakea"
+   },
+   {
+    "file": "valokaapeli/talkoovakea2-1382011426218_1.jpg",
+    "caption": "talkoovakea2"
+   },
+   {
+    "file": "valokaapeli/valokaapeli-suvannolle-17-10-2013-1382011434349_1.jpg",
+    "caption": "valokaapeli_suvannolle_17.10.2013"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennus-putken-sisaan-suvannon-ede-1382041435220_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennus-putken-sisaan-suvannon-edessa-17102013-1"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennus-putken-sisaan-suvannon-ede-1382041450028_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennus-putken-sisaan-suvannon-edessa-17102013-2"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-1-1382041466519_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-17102013-1"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-2-1382041484389_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-17102013-2"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-3-1382041503664_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-17102013-3"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-4-1382041521294_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-17102013-4"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-5-1382041537153_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-17102013-5"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-6-1382041555440_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-17102013-6"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-7-1382041570316_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-17102013-7"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-8-1382041587443_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-17102013-8"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-9-1382041604068_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-17102013-9"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-10-lara-1382041620923_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-17102013-10-lara"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-11-1382041634131_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-17102013-11"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-12-arto-ja-1382041651145_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-17102013-12-arto-jaantti"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-asennustalkoot-ensimetrit-17102013-1382041678770_1.jpg",
+    "caption": "paimensaaren-valokaapelin-asennustalkoot-ensimetrit-17102013-2"
+   },
+   {
+    "file": "valokaapeli/paimensaaren-valokaapelin-ensimmaiset-kaivuumetrit-16102013-1382041693925_1.jpg",
+    "caption": "paimensaaren-valokaapelin-ensimmaiset-kaivuumetrit-16102013"
+   },
+   {
+    "file": "valokaapeli/kaapelia-kaijanlahteen-1382449760695_1.jpg",
+    "caption": "Kaapelia Kaijanlahteen"
+   },
+   {
+    "file": "valokaapeli/jatkoskaivo-k2-1-1383848459644_1.jpg",
+    "caption": "jatkoskaivo-k2-1"
+   },
+   {
+    "file": "valokaapeli/kauvuuurakoitsijat-poslahtovalmiina-07112013-2-1383848537116_1.jpg",
+    "caption": "kauvuuurakoitsijat-poslahtovalmiina-07112013-2"
+   },
+   {
+    "file": "valokaapeli/hitsauskone-2-1384255253119_1.jpg",
+    "caption": "hitsauskone_2"
+   },
+   {
+    "file": "valokaapeli/hitsauskone-1384255260552_1.jpg",
+    "caption": "hitsauskone"
+   },
+   {
+    "file": "valokaapeli/kaivo-1384255271498_1.jpg",
+    "caption": "kaivo"
+   },
+   {
+    "file": "valokaapeli/kannen-johdot-1384255280118_1.jpg",
+    "caption": "kannen_johdot"
+   },
+   {
+    "file": "valokaapeli/piuhat-1384255288410_1.jpg",
+    "caption": "piuhat"
+   },
+   {
+    "file": "valokaapeli/rauman-juku-1384255297351_1.jpg",
+    "caption": "rauman_juku"
+   },
+   {
+    "file": "valokaapeli/tyossa-1384255305463_1.jpg",
+    "caption": "tyossa"
+   },
+   {
+    "file": "valokaapeli/jakoboxi-suvanto-1-1385566008100_1.jpg",
+    "caption": "jakoboxi_suvanto_1"
+   },
+   {
+    "file": "valokaapeli/jakoboxi-suvanto-2-1385566014514_1.jpg",
+    "caption": "jakoboxi_suvanto_2"
+   }
+  ]
+ },
+ {
+  "slug": "paimensaaresta-talkootrantasaunalla3-5-2014",
+  "title": "Talkoot rantasaunalla 3.5.2014",
+  "trail": [
+   "Paimensaaresta",
+   "Talkoot rantasaunalla 3.5.2014"
+  ],
+  "photos": [
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033771-1399120264819_1.jpg",
+    "caption": "p5033771"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033774-1399120265516_1.jpg",
+    "caption": "p5033774"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033775-1399120266016_1.jpg",
+    "caption": "p5033775"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033776-1399120266532_1.jpg",
+    "caption": "p5033776"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033777-1399120267062_1.jpg",
+    "caption": "p5033777"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033778-1399120267593_1.jpg",
+    "caption": "p5033778"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033779-1399120268119_1.jpg",
+    "caption": "p5033779"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033781-1399120268668_1.jpg",
+    "caption": "p5033781"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033783-1399120269174_1.jpg",
+    "caption": "p5033783"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033785-1399120269727_1.jpg",
+    "caption": "p5033785"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033786-1399120270229_1.jpg",
+    "caption": "p5033786"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033787-1399120270744_1.jpg",
+    "caption": "p5033787"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033790-1399120271272_1.jpg",
+    "caption": "p5033790"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033791-1399120271802_1.jpg",
+    "caption": "p5033791"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033793-1399120272342_1.jpg",
+    "caption": "p5033793"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033794-1399120272878_1.jpg",
+    "caption": "p5033794"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033796-1399120273415_1.jpg",
+    "caption": "p5033796"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033797-1399120273966_1.jpg",
+    "caption": "p5033797"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033803-1399120274526_1.jpg",
+    "caption": "p5033803"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033804-1399120275001_1.jpg",
+    "caption": "p5033804"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033805-1399120275527_1.jpg",
+    "caption": "p5033805"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033806-1399120276060_1.jpg",
+    "caption": "p5033806"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033807-1399120276580_1.jpg",
+    "caption": "p5033807"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033808-1399120277121_1.jpg",
+    "caption": "p5033808"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033809-1399120277682_1.jpg",
+    "caption": "p5033809"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla3.5.2014/p5033810-1399120277925_1.jpg",
+    "caption": "p5033810"
+   }
+  ]
+ },
+ {
+  "slug": "nieria",
+  "title": "Nieriä",
+  "trail": [
+   "Nieriä"
+  ],
+  "photos": [
+   {
+    "file": "nieria/nierian-tutkiminen-1383322696614_1.jpg",
+    "caption": "nierian_tutkiminen"
+   },
+   {
+    "file": "nieria/onko-kalaa-1383322704101_1.jpg",
+    "caption": "onko_kalaa"
+   },
+   {
+    "file": "nieria/paunetin-kokeminen-2-1383322712603_1.jpg",
+    "caption": "paunetin_kokeminen_2"
+   },
+   {
+    "file": "nieria/paunetin-kokeminen-1383322718789_1.jpg",
+    "caption": "paunetin_kokeminen"
+   },
+   {
+    "file": "nieria/paunettia-1383322727104_1.jpg",
+    "caption": "paunettia"
+   },
+   {
+    "file": "nieria/tiistaina-5-11-lypsettavat-ja-vapautettavat-1383322728740_1.jpg",
+    "caption": "tiistaina_5.11._lypsettavat_ja_vapautettavat"
+   },
+   {
+    "file": "nieria/kuolimon-kalastajat-1-1383335258732_1.jpg",
+    "caption": "kuolimon_kalastajat_1"
+   },
+   {
+    "file": "nieria/kuolimon-kalastajat-2-1383335271047_1.jpg",
+    "caption": "kuolimon_kalastajat_2"
+   },
+   {
+    "file": "nieria/kuolimon-kalastajat-3-1383335285072_1.jpg",
+    "caption": "kuolimon_kalastajat_3"
+   },
+   {
+    "file": "nieria/muikkuja-1383335305732_1.jpg",
+    "caption": "muikkuja"
+   },
+   {
+    "file": "nieria/nieria-haavissa-1383335317215_1.jpg",
+    "caption": "nieria_haavissa"
+   },
+   {
+    "file": "nieria/nieria-rysassa-1383335329293_1.jpg",
+    "caption": "nieria_rysassa"
+   },
+   {
+    "file": "nieria/nierian-sukupuolen-katsominen-1383335339000_1.jpg",
+    "caption": "nierian_sukupuolen_katsominen"
+   },
+   {
+    "file": "nieria/pa053627-1383335389856_1.jpg",
+    "caption": "pa053627"
+   },
+   {
+    "file": "nieria/img-20131029-wa0000-kopio-1383737522396_1.jpg",
+    "caption": "img-20131029-wa0000__kopio"
+   },
+   {
+    "file": "nieria/kuolimo-kova-kala-kopio-1383737528557_1.jpg",
+    "caption": "kuolimo-kova-kala__kopio"
+   },
+   {
+    "file": "nieria/kuolimo-lypsetty-kopio-1383737536261_1.jpg",
+    "caption": "kuolimo-lypsetty__kopio"
+   },
+   {
+    "file": "nieria/kuolimo-lypsetyt-toipumassa-kopio-1383737542337_1.jpg",
+    "caption": "kuolimo-lypsetyt-toipumassa__kopio"
+   },
+   {
+    "file": "nieria/kuolimo-marko-svard-1-kopio-1383737548714_1.jpg",
+    "caption": "kuolimo-marko-svard-1__kopio"
+   },
+   {
+    "file": "nieria/kuolimo-mittaus-kopio-1383737555374_1.jpg",
+    "caption": "kuolimo-mittaus__kopio"
+   },
+   {
+    "file": "nieria/kuolimo-nieriaiden-paluumat-kopio-1383737563041_1.jpg",
+    "caption": "kuolimo-nieriaiden-paluumat__kopio"
+   },
+   {
+    "file": "nieria/kuolimo-nierian-lypsy-1-kopio-1383737568765_1.jpg",
+    "caption": "kuolimo-nierian-lypsy-1__kopio"
+   },
+   {
+    "file": "nieria/kuolimo-verkon-jaljet-kopio-1383737574176_1.jpg",
+    "caption": "kuolimo-verkon-jaljet__kopio"
+   }
+  ]
+ },
+ {
+  "slug": "paimensaaresta",
+  "title": "Paimensaaresta",
+  "trail": [
+   "Paimensaaresta"
+  ],
+  "photos": [
+   {
+    "file": "paimensaaresta/heinakuun-helteiden-kotitie-2010-1381437328657_1.jpg",
+    "caption": "heinakuun_helteiden_kotitie_2010"
+   },
+   {
+    "file": "paimensaaresta/image-1381437578122_1.jpg",
+    "caption": "image"
+   },
+   {
+    "file": "paimensaaresta/paimensaarentie-hautausmaan-vierella-1381497514076_1.jpg",
+    "caption": "paimensaarentie_hautausmaan_vierella"
+   },
+   {
+    "file": "paimensaaresta/kaijanlahti-paimensaarentielta-1381497568596_1.jpg",
+    "caption": "kaijanlahti_paimensaarentielta"
+   },
+   {
+    "file": "paimensaaresta/karmeslampi-2-1381498688312_1.jpg",
+    "caption": "karmeslampi_2"
+   },
+   {
+    "file": "paimensaaresta/kotirinta-rivitalo-1381498758849_1.jpg",
+    "caption": "kotirinta_rivitalo"
+   },
+   {
+    "file": "paimensaaresta/paimensaarentie-1-1381498799826_1.jpg",
+    "caption": "paimensaarentie_1"
+   },
+   {
+    "file": "paimensaaresta/paimensaarentie-3-1381498811771_1.jpg",
+    "caption": "paimensaarentie_3"
+   },
+   {
+    "file": "paimensaaresta/paimensaarentien-ruskaa-1381498869788_1.jpg",
+    "caption": "paimensaarentien_ruskaa"
+   },
+   {
+    "file": "paimensaaresta/sauna-1-1381498881554_1.jpg",
+    "caption": "sauna_1"
+   },
+   {
+    "file": "paimensaaresta/sauna-2-1381498893378_1.jpg",
+    "caption": "sauna_2"
+   },
+   {
+    "file": "paimensaaresta/sauna-3-1381498905772_1.jpg",
+    "caption": "sauna_3"
+   },
+   {
+    "file": "paimensaaresta/sauna-4-1381498917142_1.jpg",
+    "caption": "sauna_4"
+   },
+   {
+    "file": "paimensaaresta/sauna-venelaiturilta-nahtyna-1381498931273_1.jpg",
+    "caption": "sauna_venelaiturilta_nahtyna"
+   },
+   {
+    "file": "paimensaaresta/saunalaiturilta-hakamaen-suuntaan-1381498942997_1.jpg",
+    "caption": "saunalaiturilta_hakamaen_suuntaan"
+   },
+   {
+    "file": "paimensaaresta/saunalaiturilta-syysmaisema-kuolimolle-1381498953198_1.jpg",
+    "caption": "saunalaiturilta_syysmaisema_kuolimolle"
+   },
+   {
+    "file": "paimensaaresta/vesi-matalalla-kuolimossa-13-10-2012-1381668288355_1.jpg",
+    "caption": "vesi_matalalla_kuolimossa_13.10.2012"
+   },
+   {
+    "file": "paimensaaresta/laiturilla-vesi-matalalla-13-10-2013-1381668318720_1.jpg",
+    "caption": "laiturilla_vesi_matalalla_13.10.2013"
+   },
+   {
+    "file": "paimensaaresta/img-20131017-113342-1382000167191_1.jpg",
+    "caption": "img_20131017_113342"
+   }
+  ]
+ },
+ {
+  "slug": "valokaapeliverkonkayttoonottojuhla24-1-2014",
+  "title": "Valokaapeliverkon käyttöönottojuhla 24.1.2014",
+  "trail": [
+   "Valokaapeliverkon käyttöönottojuhla 24.1.2014"
+  ],
+  "photos": [
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/2-kiljunen-simonen-1390725413064_1.jpg",
+    "caption": "2_kiljunen_simonen"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/2-kunnanherrat-1390725419078_1.jpg",
+    "caption": "2_kunnanherrat"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/2-ministeri-puhuu-1390725425491_1.jpg",
+    "caption": "2_ministeri_puhuu"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/2-ministerin-lahja-1390725431993_1.jpg",
+    "caption": "2_ministerin_lahja"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/2-muusikot-1390725438723_1.jpg",
+    "caption": "2_muusikot"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/2-rouvat-1390725443629_1.jpg",
+    "caption": "2_rouvat"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/3-ministeri-puhuu-1390725450052_1.jpg",
+    "caption": "3_ministeri_puhuu"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/3-ministerin-lahja-1390725456034_1.jpg",
+    "caption": "3_ministerin_lahja"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/kakkospoyta-1390725462572_1.jpg",
+    "caption": "kakkospoyta"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/kiljunen-simonen-1390725468982_1.jpg",
+    "caption": "kiljunen_simonen"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/ministeri-puhuu-1390725481213_1.jpg",
+    "caption": "ministeri_puhuu"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/ministerin-lahja-1390725489553_1.jpg",
+    "caption": "ministerin_lahja"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/muusikot-1390725498220_1.jpg",
+    "caption": "muusikot"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/paimensaarilaisia-1390725866283_1.jpg",
+    "caption": "paimensaarilaisia"
+   },
+   {
+    "file": "valokaapeliverkonkayttoonottojuhla24.1.2014/rouvat-1390725872621_1.jpg",
+    "caption": "rouvat"
+   }
+  ]
+ },
+ {
+  "slug": "sekalaisiaotoksia",
+  "title": "Muita kuvia",
+  "trail": [
+   "Muita kuvia"
+  ],
+  "photos": [
+   {
+    "file": "sekalaisiaotoksia/kaupin-pihalla-1381842224089_1.jpg",
+    "caption": "kaupin_pihalla"
+   },
+   {
+    "file": "sekalaisiaotoksia/paimensaari-camping-kuva-1983-1-1391179311431_1.jpg",
+    "caption": "paimensaari-camping-kuva-1983-1"
+   },
+   {
+    "file": "sekalaisiaotoksia/artpaimensaari-1014-eeva-jokipelto-1403031520163_1.jpg",
+    "caption": "artpaimensaari_1014_eeva_jokipelto"
+   },
+   {
+    "file": "sekalaisiaotoksia/artpaimensaari-2014-kutsuvieraita-1403031520678_1.jpg",
+    "caption": "artpaimensaari_2014_kutsuvieraita"
+   },
+   {
+    "file": "sekalaisiaotoksia/artpaimensaari-2014-matti-rautio-1403031521203_1.jpg",
+    "caption": "artpaimensaari_2014_matti_rautio"
+   },
+   {
+    "file": "sekalaisiaotoksia/artpaimensaari-2014-ukonpojat-1403031521746_1.jpg",
+    "caption": "artpaimensaari_2014_ukonpojat"
+   },
+   {
+    "file": "sekalaisiaotoksia/kokous1-1403031522259_1.jpg",
+    "caption": "kokous1"
+   },
+   {
+    "file": "sekalaisiaotoksia/kokous2-1403031522809_1.jpg",
+    "caption": "kokous2"
+   },
+   {
+    "file": "sekalaisiaotoksia/yleisoa1-1514835234534_1.jpg",
+    "caption": "yleisoa1"
+   },
+   {
+    "file": "sekalaisiaotoksia/talkoot-27102028-haravoinnin-ja-kuomaukset-mestarit-1540795444536_1.jpg",
+    "caption": "talkoot-27102028-haravoinnin_ja_kuomaukset_mestarit"
+   },
+   {
+    "file": "sekalaisiaotoksia/talkoot-27102028-klapien-kantoa-1540795446871_1.jpg",
+    "caption": "talkoot-27102028-klapien-kantoa"
+   },
+   {
+    "file": "sekalaisiaotoksia/talkoot-27102028-valipalataukokuva-1540795448055_1.jpg",
+    "caption": "talkoot-27102028-valipalataukokuva"
+   }
+  ]
+ },
+ {
+  "slug": "sekalaisiaotoksia-uusivuosi",
+  "title": "Uusivuosi",
+  "trail": [
+   "Muita kuvia",
+   "Uusivuosi"
+  ],
+  "photos": [
+   {
+    "file": "sekalaisiaotoksia/uusivuosi/yleisoa2-1514835362489_1.jpg",
+    "caption": "yleisoa2"
+   },
+   {
+    "file": "sekalaisiaotoksia/uusivuosi/yleisoa3-1514835482662_1.jpg",
+    "caption": "yleisoa3"
+   },
+   {
+    "file": "sekalaisiaotoksia/uusivuosi/yleisoa4-1514835482662_2.jpg",
+    "caption": "yleisoa4"
+   },
+   {
+    "file": "sekalaisiaotoksia/uusivuosi/yleisoa5-1514835482662_3.jpg",
+    "caption": "yleisoa5"
+   },
+   {
+    "file": "sekalaisiaotoksia/uusivuosi/raketteja1-1514835482662_4.jpg",
+    "caption": "raketteja1"
+   },
+   {
+    "file": "sekalaisiaotoksia/uusivuosi/raketteja2-1514835482662_5.jpg",
+    "caption": "raketteja2"
+   },
+   {
+    "file": "sekalaisiaotoksia/uusivuosi/raketteja3-1514835482662_6.jpg",
+    "caption": "raketteja3"
+   },
+   {
+    "file": "sekalaisiaotoksia/uusivuosi/raketteja4-1514835482662_7.jpg",
+    "caption": "raketteja4"
+   },
+   {
+    "file": "sekalaisiaotoksia/uusivuosi/raketteja5-1514835482662_8.jpg",
+    "caption": "raketteja5"
+   }
+  ]
+ },
+ {
+  "slug": "paimensaaresta-talkootrantasaunalla05052018",
+  "title": "Talkoot rantasaunalla 5.5.2018",
+  "trail": [
+   "Paimensaaresta",
+   "Talkoot rantasaunalla 5.5.2018"
+  ],
+  "photos": [
+   {
+    "file": "paimensaaresta/talkootrantasaunalla05052018/ilta-aurinko-saunalla-1525591461849_1.jpg",
+    "caption": "ilta-aurinko_saunalla"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla05052018/ahkeraa-klapien-tekoa-1525591464674_1.jpg",
+    "caption": "ahkeraa_klapien_tekoa"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla05052018/saunan-alustan-tyhjennys-1525591468780_1.jpg",
+    "caption": "saunan_alustan_tyhjennys"
+   },
+   {
+    "file": "paimensaaresta/talkootrantasaunalla05052018/polli-katkeaa-naisenergialla-1525591983038_1.jpg",
+    "caption": "polli_katkeaa_naisenergialla"
+   }
+  ]
+ },
+ {
+  "slug": "paimensaaresta-talkoot-2710208",
+  "title": "Talkoot rantasaunalla 2710208",
+  "trail": [
+   "Paimensaaresta",
+   "Talkoot rantasaunalla 2710208"
+  ],
+  "photos": [
+   {
+    "file": "paimensaaresta/talkoot-2710208/talkoot-27102028-haravoinnin-ja-kuomaukset-mestarit-1540796280404_1.jpg",
+    "caption": "talkoot-27102028-haravoinnin_ja_kuomaukset_mestarit"
+   },
+   {
+    "file": "paimensaaresta/talkoot-2710208/talkoot-27102028-klapien-kantoa-1540796283572_1.jpg",
+    "caption": "talkoot-27102028-klapien-kantoa"
+   },
+   {
+    "file": "paimensaaresta/talkoot-2710208/talkoot-27102028-valipalataukokuva-1540796285900_1.jpg",
+    "caption": "talkoot-27102028-valipalataukokuva"
+   }
+  ]
+ },
+ {
+  "slug": "talkoot26102019",
+  "title": "Talkoot 26.10.2019",
+  "trail": [
+   "Talkoot 26.10.2019"
+  ],
+  "photos": [
+   {
+    "file": "talkoot26102019/paimensaari-talkoot-20191026-1-1572113523629_1.jpg",
+    "caption": "paimensaari_talkoot_20191026-1"
+   },
+   {
+    "file": "talkoot26102019/paimensaari-talkoot-20191026-2-1572113539551_1.jpg",
+    "caption": "paimensaari_talkoot_20191026-2"
+   }
+  ]
+ },
+ {
+  "slug": "sekalaisiaotoksia-luistelukentta",
+  "title": "Luistelukenttä",
+  "trail": [
+   "Muita kuvia",
+   "Luistelukenttä"
+  ],
+  "photos": [
+   {
+    "file": "sekalaisiaotoksia/luistelukentta/jaakentta-1517549372691_1.jpg",
+    "caption": "jaakentta"
+   }
+  ]
+ }
+]

@@ -15,6 +15,6 @@ images:
 
 
 
- ![](../../assets/photos/uutiset/thumbnail)
+ ![](../../assets/photos/uutiset/kaivuuurakoitsijat-poslahtovalmiina-07112013-2.jpg)
 
 Valokaapelien asennus valmistui 1,5 vk etuajassa 7.11.2013. Tähämä onnistui ripeaän ja pitkää työpäivää tehneen urakoitsijan työllä ja meidän oman hyvän valmistelun ansiosta. Suurkiitos tekijöille. Toivotimme miellyttäville kavereille hyvää kotimatkaa. Toiset heistä tulivat Oulusta saakka.

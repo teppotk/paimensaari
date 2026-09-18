@@ -1,8 +1,8 @@
 {
   "source": "https://www.paimensaari.fi",
   "updated": "2026-09-18",
-  "file_count": 270,
-  "total_bytes": 285859865,
+  "file_count": 273,
+  "total_bytes": 287342818,
   "files": [
     {
       "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383737522396_1_orig.jpg",
@@ -1136,6 +1136,24 @@
       "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/jarven-muisti-kari-matti-vuori_page_001.jpg",
       "path": "assets/photos/uutiset/jarven-muisti-kari-matti-vuori_page_001.jpg",
       "bytes": 398957,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kaivuuurakoitsijat-poslahtovalmiina-07112013-2.jpg",
+      "path": "assets/photos/uutiset/kaivuuurakoitsijat-poslahtovalmiina-07112013-2.jpg",
+      "bytes": 693721,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/pia_viitanen.jpg",
+      "path": "assets/photos/uutiset/pia_viitanen.jpg",
+      "bytes": 14665,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kuvat/runkokaapelin-talokaapelin-haaroituksen-kuva-1.jpg",
+      "path": "assets/photos/uutiset/runkokaapelin-talokaapelin-haaroituksen-kuva-1.jpg",
+      "bytes": 774567,
       "fetched": "2026-09-18"
     },
     {

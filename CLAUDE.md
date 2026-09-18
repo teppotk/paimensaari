@@ -24,12 +24,26 @@ Plain static **HTML + CSS + vanilla JS**. Deliberately **no build step, no frame
 npm dependencies** — the files in the repo are exactly what GitHub Pages serves. Do not
 introduce a bundler, a static site generator or a `package.json` without asking first.
 
+The 8 section pages are hand-written HTML. The 183 news items and 157 gallery photos are not
+pages at all: `js/site.js` fetches `data/uutiset.json` and `data/galleria.json` and renders them
+in the browser. A news item's address is a fragment, `uutiset.html#<news_id>`, which
+`js/site.js` routes on load and on `hashchange`.
+
 Consequences to work around, not to "fix":
 
 - There are no template partials. Header/nav/footer markup is **duplicated in every HTML
   page**. When changing shared markup, change it in *all* pages (`grep -l '<nav' *.html`) —
-  a change applied to one page only is a bug.
+  a change applied to one page only is a bug. Exactly one nav link per page carries
+  `aria-current="page"`.
+- **Every path is relative, never root-relative.** The site has to work both at
+  `teppotk.github.io/paimensaari/` and at the domain root; a leading `/` breaks the first.
+- News and gallery content is invisible to search engines and to a reader with JavaScript off.
+  That was a deliberate trade for not generating 183 pages — don't "fix" it by adding a
+  generator without asking.
 - Shared styling and behaviour belong in the single shared `css/` and `js/` files, not inline.
+- `data/*.json` and `assets/web/` are generated from `content/` and `assets/photos/` by
+  `scripts/build_web.py`. Edit the archive, then re-run it — never hand-edit the generated
+  files.
 
 ## Commands
 
@@ -47,7 +61,15 @@ python3 scripts/archive.py news
 # Rebuild the Markdown from archive/raw/ without touching the old site.
 # Use this whenever the converter changes — a full re-fetch is ~250 requests.
 python3 scripts/archive.py all --offline
+
+# Rebuild the published site's data and downscaled images from the archive
+python3 scripts/build_web.py            # images (sips) + JSON, minutes
+python3 scripts/build_web.py --data     # JSON only, seconds
 ```
+
+Screenshots for review: headless Chrome works, but **macOS Chrome clamps the window to about
+500 px wide**, so a `--window-size=390` screenshot is a crop of a 500 px layout, not a phone
+view. To check narrow layouts, load the page in a 360 px `<iframe>` inside a wider window.
 
 There are no tests and no linter. Verification is manual: preview locally, check every page
 listed in the nav, and check narrow (≈375px) and wide viewports.
@@ -64,7 +86,12 @@ listed in the nav, and check narrow (≈375px) and wide viewports.
 - `archive/raw/` — the source HTML of every page fetched, converted to UTF-8. `--offline`
   rebuilds from these, and they are the evidence that the archive is complete.
 - `archive/manifest.json` — every downloaded file with its source URL, size and fetch date.
+- `assets/web/thumb/`, `assets/web/large/` — what the pages actually serve: 560 px and 1400 px
+  JPEGs, generated from the originals. Always JPEG, whatever the original format was.
+- `assets/liitteet/` — PDFs that used to live on the old host.
+- `data/uutiset.json`, `data/galleria.json` — what the browser loads.
 - `scripts/archive.py` — the archiver (subcommands `pages`, `news`, `albums`, `all`).
+- `scripts/build_web.py` — derives `assets/web/` and `data/` from the archive.
 - `scripts/html2md.py` — stdlib HTML→Markdown converter written for this site's tag
   vocabulary. Change it and re-run with `--offline` rather than hand-editing `content/`.
 - `index.html` plus one file per section at the repo root — what Pages actually serves.

@@ -15,7 +15,7 @@ images:
 
 
 
- ![](../../assets/photos/uutiset/thumbnail)
+ ![](../../assets/photos/uutiset/runkokaapelin-talokaapelin-haaroituksen-kuva-1.jpg)
 
 Valokaapelin runkokaapelin jatkosten kytkentätyöt alkoivat aikataulun mukaisesti.
 Ruostumattomalla teräskuorella varustetut jatkokset sijaitsevat halkaisijaltaan 100 cm ja noin 70 cm syvissä muovisissa suojakaivoissa. Jatkoskohdissa runkokaapelia jatketaan ja liitetään runkoon asiakkaille kotiin tulevat valokaapelit. Vaativa liitostyö tehdään hitsaamalla puhtaassa työkopissa, jota kuljetetaan peräkärryssä.

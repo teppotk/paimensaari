@@ -16,7 +16,7 @@ images:
 
 
 
- ![](../../assets/photos/uutiset/thumbnail)
+ ![](https://www.paimensaari.fi/api/thumbnail?img=Luistelukenttä&width=150)
 
 Nyt meillä on, kiitos ahkerien talkoolaisten oma luistelukenttä
 venelaiturin vieressä. Se sopii erityisesti lapsille, mutta myös meille
