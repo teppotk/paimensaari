@@ -124,12 +124,11 @@ main > p:first-of-type { margin-top: 0; }
 .nauha { margin-top: 3.6rem; }
 .nauha h2 { margin-top: 0; }
 .nauha ul {
-  list-style: none; margin: 1rem 0 0;
+  list-style: none; margin: 1rem 0 0; padding: 0;
   display: grid; gap: 0.5rem; grid-template-columns: repeat(2, 1fr);
 }
-@media (min-width: 40rem) { .nauha ul { grid-template-columns: repeat(3, 1fr); } }
-@media (min-width: 62rem) { .nauha ul { grid-template-columns: repeat(6, 1fr); } }
-.nauha img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; background: var(--paper-sunk); }
+@media (min-width: 34rem) { .nauha ul { grid-template-columns: repeat(3, 1fr); } }
+.nauha img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: var(--paper-sunk); }
 .nauha a { display: block; }
 .nauha__teksti { margin-top: 0.9rem; }
 
