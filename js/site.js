@@ -164,6 +164,10 @@
     katselin.querySelector("[data-edellinen]").addEventListener("click", function () { siirry(-1); });
     katselin.querySelector("[data-seuraava]").addEventListener("click", function () { siirry(1); });
     katselin.querySelector("[data-sulje]").addEventListener("click", function () { katselin.close(); });
+    // Klikkaus kuvan ulkopuolelle (tausta) sulkee katselimen; Esc toimii jo itsestään.
+    katselin.addEventListener("click", function (e) {
+      if (e.target === katselin) katselin.close();
+    });
     katselin.addEventListener("keydown", function (e) {
       if (e.key === "ArrowLeft") { e.preventDefault(); siirry(-1); }
       if (e.key === "ArrowRight") { e.preventDefault(); siirry(1); }

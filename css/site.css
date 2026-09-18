@@ -188,7 +188,16 @@ main > p:first-of-type { margin-top: 0; }
 .ruudukko button { padding: 0; border: 0; background: none; cursor: zoom-in; display: block; width: 100%; }
 .ruudukko img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: var(--paper-sunk); }
 
-dialog.katselin { border: 0; padding: 0; background: transparent; max-width: 100vw; max-height: 100vh; }
+dialog.katselin {
+  border: 0; padding: 0;
+  /* Tummennus dialogissa itsessään, ei ::backdropissa: näin se peittää
+     sivun varmasti ja kuvan ulkopuolinen alue kuuluu dialogiin. */
+  background: rgba(10, 18, 17, 0.93);
+  width: 100vw; max-width: 100vw; height: 100vh; max-height: 100vh;
+  cursor: zoom-out;   /* kuvan ulkopuolelle klikkaaminen sulkee */
+}
+dialog.katselin[open] { display: flex; flex-direction: column; justify-content: center; }
+.katselin__kuva, .katselin__teksti, .katselin__ohjaus { cursor: auto; }
 dialog.katselin::backdrop { background: rgba(10, 18, 17, 0.92); }
 .katselin__kuva { max-width: min(96vw, 1400px); max-height: 82vh; object-fit: contain; display: block; margin-inline: auto; background: #0a1211; }
 .katselin__teksti { color: #e7ece9; text-align: center; padding: 0.7rem 1rem 0; font-size: 0.95rem; }
