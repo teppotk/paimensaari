@@ -1,0 +1,1628 @@
+{
+  "source": "https://www.paimensaari.fi",
+  "updated": "2026-09-18",
+  "file_count": 270,
+  "total_bytes": 285859865,
+  "files": [
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383737522396_1_orig.jpg",
+      "path": "assets/photos/nieria/img-20131029-wa0000-kopio-1383737522396_1.jpg",
+      "bytes": 248483,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383737528557_1_orig.jpg",
+      "path": "assets/photos/nieria/kuolimo-kova-kala-kopio-1383737528557_1.jpg",
+      "bytes": 595286,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383737536261_1_orig.jpg",
+      "path": "assets/photos/nieria/kuolimo-lypsetty-kopio-1383737536261_1.jpg",
+      "bytes": 739825,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383737542337_1_orig.jpg",
+      "path": "assets/photos/nieria/kuolimo-lypsetyt-toipumassa-kopio-1383737542337_1.jpg",
+      "bytes": 564810,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383737548714_1_orig.jpg",
+      "path": "assets/photos/nieria/kuolimo-marko-svard-1-kopio-1383737548714_1.jpg",
+      "bytes": 620884,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383737555374_1_orig.jpg",
+      "path": "assets/photos/nieria/kuolimo-mittaus-kopio-1383737555374_1.jpg",
+      "bytes": 606016,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383737563041_1_orig.jpg",
+      "path": "assets/photos/nieria/kuolimo-nieriaiden-paluumat-kopio-1383737563041_1.jpg",
+      "bytes": 766357,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383737568765_1_orig.jpg",
+      "path": "assets/photos/nieria/kuolimo-nierian-lypsy-1-kopio-1383737568765_1.jpg",
+      "bytes": 528003,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383737574176_1_orig.jpg",
+      "path": "assets/photos/nieria/kuolimo-verkon-jaljet-kopio-1383737574176_1.jpg",
+      "bytes": 537499,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383335258732_1_orig.jpg",
+      "path": "assets/photos/nieria/kuolimon-kalastajat-1-1383335258732_1.jpg",
+      "bytes": 1313830,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383335271047_1_orig.jpg",
+      "path": "assets/photos/nieria/kuolimon-kalastajat-2-1383335271047_1.jpg",
+      "bytes": 1241699,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383335285072_1_orig.jpg",
+      "path": "assets/photos/nieria/kuolimon-kalastajat-3-1383335285072_1.jpg",
+      "bytes": 1427437,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383335305732_1_orig.jpg",
+      "path": "assets/photos/nieria/muikkuja-1383335305732_1.jpg",
+      "bytes": 2119162,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383335317215_1_orig.jpg",
+      "path": "assets/photos/nieria/nieria-haavissa-1383335317215_1.jpg",
+      "bytes": 1195240,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383335329293_1_orig.jpg",
+      "path": "assets/photos/nieria/nieria-rysassa-1383335329293_1.jpg",
+      "bytes": 1216071,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383335339000_1_orig.jpg",
+      "path": "assets/photos/nieria/nierian-sukupuolen-katsominen-1383335339000_1.jpg",
+      "bytes": 966433,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383322696614_1_orig.jpg",
+      "path": "assets/photos/nieria/nierian-tutkiminen-1383322696614_1.jpg",
+      "bytes": 221399,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383322704101_1_orig.jpg",
+      "path": "assets/photos/nieria/onko-kalaa-1383322704101_1.jpg",
+      "bytes": 788534,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383335389856_1_orig.jpg",
+      "path": "assets/photos/nieria/pa053627-1383335389856_1.jpg",
+      "bytes": 5390694,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383322718789_1_orig.jpg",
+      "path": "assets/photos/nieria/paunetin-kokeminen-1383322718789_1.jpg",
+      "bytes": 652230,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383322712603_1_orig.jpg",
+      "path": "assets/photos/nieria/paunetin-kokeminen-2-1383322712603_1.jpg",
+      "bytes": 899259,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383322727104_1_orig.jpg",
+      "path": "assets/photos/nieria/paunettia-1383322727104_1.jpg",
+      "bytes": 878478,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383322728740_1_orig.jpg",
+      "path": "assets/photos/nieria/tiistaina-5-11-lypsettavat-ja-vapautettavat-1383322728740_1.jpg",
+      "bytes": 149077,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381437328657_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/heinakuun-helteiden-kotitie-2010-1381437328657_1.jpg",
+      "bytes": 8065735,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381437578122_1_large.jpg",
+      "path": "assets/photos/paimensaaresta/image-1381437578122_1.jpg",
+      "bytes": 276217,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382000167191_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/img-20131017-113342-1382000167191_1.jpg",
+      "bytes": 411072,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381497568596_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/kaijanlahti-paimensaarentielta-1381497568596_1.jpg",
+      "bytes": 1377496,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381498688312_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/karmeslampi-2-1381498688312_1.jpg",
+      "bytes": 1369040,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381498758849_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/kotirinta-rivitalo-1381498758849_1.jpg",
+      "bytes": 1068156,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381668318720_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/laiturilla-vesi-matalalla-13-10-2013-1381668318720_1.jpg",
+      "bytes": 551315,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381498799826_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/paimensaarentie-1-1381498799826_1.jpg",
+      "bytes": 1086113,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381498811771_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/paimensaarentie-3-1381498811771_1.jpg",
+      "bytes": 1209904,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381497514076_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/paimensaarentie-hautausmaan-vierella-1381497514076_1.jpg",
+      "bytes": 1222350,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381498869788_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/paimensaarentien-ruskaa-1381498869788_1.jpg",
+      "bytes": 1262876,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381498881554_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/sauna-1-1381498881554_1.jpg",
+      "bytes": 1187776,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381498893378_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/sauna-2-1381498893378_1.jpg",
+      "bytes": 1188424,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381498905772_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/sauna-3-1381498905772_1.jpg",
+      "bytes": 1265552,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381498917142_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/sauna-4-1381498917142_1.jpg",
+      "bytes": 1168543,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381498931273_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/sauna-venelaiturilta-nahtyna-1381498931273_1.jpg",
+      "bytes": 1395508,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381498942997_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/saunalaiturilta-hakamaen-suuntaan-1381498942997_1.jpg",
+      "bytes": 1156021,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381498953198_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/saunalaiturilta-syysmaisema-kuolimolle-1381498953198_1.jpg",
+      "bytes": 1030059,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1540796280404_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkoot-2710208/talkoot-27102028-haravoinnin-ja-kuomaukset-mestarit-1540796280404_1.jpg",
+      "bytes": 2888515,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1540796283572_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkoot-2710208/talkoot-27102028-klapien-kantoa-1540796283572_1.jpg",
+      "bytes": 1643090,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1540796285900_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkoot-2710208/talkoot-27102028-valipalataukokuva-1540796285900_1.jpg",
+      "bytes": 1559055,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1525591464674_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla05052018/ahkeraa-klapien-tekoa-1525591464674_1.jpg",
+      "bytes": 3588616,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1525591461849_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla05052018/ilta-aurinko-saunalla-1525591461849_1.jpg",
+      "bytes": 2524707,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1525591983038_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla05052018/polli-katkeaa-naisenergialla-1525591983038_1.jpg",
+      "bytes": 628253,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1525591468780_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla05052018/saunan-alustan-tyhjennys-1525591468780_1.jpg",
+      "bytes": 3477114,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120264819_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033771-1399120264819_1.jpg",
+      "bytes": 564774,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120265516_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033774-1399120265516_1.jpg",
+      "bytes": 959547,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120266016_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033775-1399120266016_1.jpg",
+      "bytes": 853783,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120266532_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033776-1399120266532_1.jpg",
+      "bytes": 769506,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120267062_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033777-1399120267062_1.jpg",
+      "bytes": 954337,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120267593_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033778-1399120267593_1.jpg",
+      "bytes": 848677,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120268119_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033779-1399120268119_1.jpg",
+      "bytes": 923440,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120268668_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033781-1399120268668_1.jpg",
+      "bytes": 878200,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120269174_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033783-1399120269174_1.jpg",
+      "bytes": 836512,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120269727_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033785-1399120269727_1.jpg",
+      "bytes": 990437,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120270229_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033786-1399120270229_1.jpg",
+      "bytes": 922636,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120270744_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033787-1399120270744_1.jpg",
+      "bytes": 696975,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120271272_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033790-1399120271272_1.jpg",
+      "bytes": 730805,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120271802_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033791-1399120271802_1.jpg",
+      "bytes": 879639,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120272342_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033793-1399120272342_1.jpg",
+      "bytes": 904597,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120272878_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033794-1399120272878_1.jpg",
+      "bytes": 962029,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120273415_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033796-1399120273415_1.jpg",
+      "bytes": 896116,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120273966_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033797-1399120273966_1.jpg",
+      "bytes": 941682,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120274526_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033803-1399120274526_1.jpg",
+      "bytes": 793064,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120275001_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033804-1399120275001_1.jpg",
+      "bytes": 907251,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120275527_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033805-1399120275527_1.jpg",
+      "bytes": 921976,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120276060_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033806-1399120276060_1.jpg",
+      "bytes": 957492,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120276580_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033807-1399120276580_1.jpg",
+      "bytes": 873120,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120277121_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033808-1399120277121_1.jpg",
+      "bytes": 777172,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120277682_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033809-1399120277682_1.jpg",
+      "bytes": 1023729,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1399120277925_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/talkootrantasaunalla3.5.2014/p5033810-1399120277925_1.jpg",
+      "bytes": 805404,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381668288355_1_orig.jpg",
+      "path": "assets/photos/paimensaaresta/vesi-matalalla-kuolimossa-13-10-2012-1381668288355_1.jpg",
+      "bytes": 604084,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1403031520163_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/artpaimensaari-1014-eeva-jokipelto-1403031520163_1.jpg",
+      "bytes": 381158,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1403031520678_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/artpaimensaari-2014-kutsuvieraita-1403031520678_1.jpg",
+      "bytes": 520203,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1403031521203_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/artpaimensaari-2014-matti-rautio-1403031521203_1.jpg",
+      "bytes": 416022,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1403031521746_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/artpaimensaari-2014-ukonpojat-1403031521746_1.jpg",
+      "bytes": 562416,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381842224089_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/kaupin-pihalla-1381842224089_1.jpg",
+      "bytes": 539729,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1403031522259_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/kokous1-1403031522259_1.jpg",
+      "bytes": 487495,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1403031522809_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/kokous2-1403031522809_1.jpg",
+      "bytes": 610619,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1517549372691_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/luistelukentta/jaakentta-1517549372691_1.jpg",
+      "bytes": 72798,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1391179311431_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/paimensaari-camping-kuva-1983-1-1391179311431_1.jpg",
+      "bytes": 1859105,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1540795444536_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/talkoot-27102028-haravoinnin-ja-kuomaukset-mestarit-1540795444536_1.jpg",
+      "bytes": 2888515,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1540795446871_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/talkoot-27102028-klapien-kantoa-1540795446871_1.jpg",
+      "bytes": 1643090,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1540795448055_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/talkoot-27102028-valipalataukokuva-1540795448055_1.jpg",
+      "bytes": 1559055,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1514835482662_4_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/uusivuosi/raketteja1-1514835482662_4.jpg",
+      "bytes": 8013513,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1514835482662_5_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/uusivuosi/raketteja2-1514835482662_5.jpg",
+      "bytes": 6544770,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1514835482662_6_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/uusivuosi/raketteja3-1514835482662_6.jpg",
+      "bytes": 7752524,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1514835482662_7_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/uusivuosi/raketteja4-1514835482662_7.jpg",
+      "bytes": 7524119,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1514835482662_8_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/uusivuosi/raketteja5-1514835482662_8.jpg",
+      "bytes": 7658033,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1514835362489_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/uusivuosi/yleisoa2-1514835362489_1.jpg",
+      "bytes": 7836454,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1514835482662_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/uusivuosi/yleisoa3-1514835482662_1.jpg",
+      "bytes": 7352547,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1514835482662_2_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/uusivuosi/yleisoa4-1514835482662_2.jpg",
+      "bytes": 7848824,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1514835482662_3_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/uusivuosi/yleisoa5-1514835482662_3.jpg",
+      "bytes": 7467147,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1514835234534_1_orig.jpg",
+      "path": "assets/photos/sekalaisiaotoksia/yleisoa1-1514835234534_1.jpg",
+      "bytes": 7018790,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kuvat/Rantasauna/Grilli_poyta_ja_penkit.PNG",
+      "path": "assets/photos/sivut/Grilli_poyta_ja_penkit.PNG",
+      "bytes": 538888,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Kotivara.JPG",
+      "path": "assets/photos/sivut/Kotivara.JPG",
+      "bytes": 28427,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kuvat/Rantasauna/Laituri.PNG",
+      "path": "assets/photos/sivut/Laituri.PNG",
+      "bytes": 493110,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kuvat/Rantasauna/Rantasauna.PNG",
+      "path": "assets/photos/sivut/Rantasauna.PNG",
+      "bytes": 867758,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/as-17-4.jpg",
+      "path": "assets/photos/sivut/as-17-4.jpg",
+      "bytes": 57255,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kuvat/jatkoskaivo-k2-1.jpg",
+      "path": "assets/photos/sivut/jatkoskaivo-k2-1.jpg",
+      "bytes": 130648,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/k2_kaivon-sijainti.jpg",
+      "path": "assets/photos/sivut/k2_kaivon-sijainti.jpg",
+      "bytes": 185974,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kaivo-2-jatkoskotelo.jpg",
+      "path": "assets/photos/sivut/kaivo-2-jatkoskotelo.jpg",
+      "bytes": 244262,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kaivo-2-kytkennat-jatkoskotelossa.jpg",
+      "path": "assets/photos/sivut/kaivo-2-kytkennat-jatkoskotelossa.jpg",
+      "bytes": 122174,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/paimensaarentie-1-aurauskuva-1.jpg",
+      "path": "assets/photos/sivut/paimensaarentie-1-aurauskuva-1.jpg",
+      "bytes": 28392,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/paimensaarentie-24-kaapelioja-paadysta-ylos.jpg",
+      "path": "assets/photos/sivut/paimensaarentie-24-kaapelioja-paadysta-ylos.jpg",
+      "bytes": 45333,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/paimensaarentie-24a4-aukko-eteisen-seinaan.jpg",
+      "path": "assets/photos/sivut/paimensaarentie-24a4-aukko-eteisen-seinaan.jpg",
+      "bytes": 28343,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/paimensaarentie-24a4-kaapelilapiviennin-poraus-oven-viereen.jpg",
+      "path": "assets/photos/sivut/paimensaarentie-24a4-kaapelilapiviennin-poraus-oven-viereen.jpg",
+      "bytes": 31632,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/paimensaarentie-24a4-pihan-avaus-kaapeliojalle.jpg",
+      "path": "assets/photos/sivut/paimensaarentie-24a4-pihan-avaus-kaapeliojalle.jpg",
+      "bytes": 49659,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/paimesaarentie-24a3-kaapelioja.jpg",
+      "path": "assets/photos/sivut/paimesaarentie-24a3-kaapelioja.jpg",
+      "bytes": 48176,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/savitaipale.png",
+      "path": "assets/photos/sivut/savitaipale.png",
+      "bytes": 12888,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/tien_alitus-1.jpg",
+      "path": "assets/photos/sivut/tien_alitus-1.jpg",
+      "bytes": 42910,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1572113523629_1_orig.jpg",
+      "path": "assets/photos/talkoot26102019/paimensaari-talkoot-20191026-1-1572113523629_1.jpg",
+      "bytes": 471810,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1572113539551_1_orig.jpg",
+      "path": "assets/photos/talkoot26102019/paimensaari-talkoot-20191026-2-1572113539551_1.jpg",
+      "bytes": 284541,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/2011-10-17_09.05.59.jpg",
+      "path": "assets/photos/uutiset/2011-10-17_09.05.59.jpg",
+      "bytes": 74774,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/20131010_135023.jpg",
+      "path": "assets/photos/uutiset/20131010_135023.jpg",
+      "bytes": 58113,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/202004091200-viimeiset_jaat_Ala-Kuolimolla_.jpg",
+      "path": "assets/photos/uutiset/202004091200-viimeiset_jaat_Ala-Kuolimolla_.jpg",
+      "bytes": 2462150,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/20221231_Olkkolan_ilotulitus.jpg",
+      "path": "assets/photos/uutiset/20221231_Olkkolan_ilotulitus.jpg",
+      "bytes": 100271,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/2023_Talkoot-1.JPG",
+      "path": "assets/photos/uutiset/2023_Talkoot-1.JPG",
+      "bytes": 48496,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/2023_Talkoot-2.JPG",
+      "path": "assets/photos/uutiset/2023_Talkoot-2.JPG",
+      "bytes": 111889,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/2023_Talkoot-3.JPG",
+      "path": "assets/photos/uutiset/2023_Talkoot-3.JPG",
+      "bytes": 62856,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/2023_Talkoot-4.JPG",
+      "path": "assets/photos/uutiset/2023_Talkoot-4.JPG",
+      "bytes": 22533,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kuvat/Rantasauna/Ahkeraa_klapien_tekoa.jpg",
+      "path": "assets/photos/uutiset/Ahkeraa_klapien_tekoa.jpg",
+      "bytes": 3588616,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Ainonpolku_1.JPG",
+      "path": "assets/photos/uutiset/Ainonpolku_1.JPG",
+      "bytes": 17936,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Aurinkokennojen_asennus_alkamassa-2.JPG",
+      "path": "assets/photos/uutiset/Aurinkokennojen_asennus_alkamassa-2.JPG",
+      "bytes": 139499,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Aurinkokennon_kiinnitys_tiilikatolla-2.JPG",
+      "path": "assets/photos/uutiset/Aurinkokennon_kiinnitys_tiilikatolla-2.JPG",
+      "bytes": 84480,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Aurinkokennon_sahkojohto-2.JPG",
+      "path": "assets/photos/uutiset/Aurinkokennon_sahkojohto-2.JPG",
+      "bytes": 92797,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Aurinkokennonenergian_invertteri_verannalla-2.JPG",
+      "path": "assets/photos/uutiset/Aurinkokennonenergian_invertteri_verannalla-2.JPG",
+      "bytes": 54116,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Aurinkokennot_16_tiilikatolla-2.JPG",
+      "path": "assets/photos/uutiset/Aurinkokennot_16_tiilikatolla-2.JPG",
+      "bytes": 192419,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Hyvaa_Uutta-Vuotta_2024.JPG",
+      "path": "assets/photos/uutiset/Hyvaa_Uutta-Vuotta_2024.JPG",
+      "bytes": 100896,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Hyvaa_Uuttavuotta_2025.PNG",
+      "path": "assets/photos/uutiset/Hyvaa_Uuttavuotta_2025.PNG",
+      "bytes": 477135,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Ilja-kaikki_kerralla.jpg",
+      "path": "assets/photos/uutiset/Ilja-kaikki_kerralla.jpg",
+      "bytes": 96444,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kuvat/Rantasauna/Ilta-aurinko_saunalla.jpg",
+      "path": "assets/photos/uutiset/Ilta-aurinko_saunalla.jpg",
+      "bytes": 2524707,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Ilta_saunalla_19082022.JPG",
+      "path": "assets/photos/uutiset/Ilta_saunalla_19082022.JPG",
+      "bytes": 27011,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Uusivuosi/Jatkankynttila.jpg",
+      "path": "assets/photos/uutiset/Jatkankynttila.jpg",
+      "bytes": 1761235,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Joulupallo.JPG",
+      "path": "assets/photos/uutiset/Joulupallo.JPG",
+      "bytes": 34953,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Kaiteen_maalausta_Lara_ja_Merja-1.JPG",
+      "path": "assets/photos/uutiset/Kaiteen_maalausta_Lara_ja_Merja-1.JPG",
+      "bytes": 140166,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Kaiteiden_maalausta_Merja-Larisa-Kari-Esko-1.JPG",
+      "path": "assets/photos/uutiset/Kaiteiden_maalausta_Merja-Larisa-Kari-Esko-1.JPG",
+      "bytes": 148062,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Kaiteiden_maalausta_Merja-Larisa-Kari-Esko-32.jpg",
+      "path": "assets/photos/uutiset/Kaiteiden_maalausta_Merja-Larisa-Kari-Esko-32.jpg",
+      "bytes": 3725278,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Kari_yksi_kerraallaan.jpg",
+      "path": "assets/photos/uutiset/Kari_yksi_kerraallaan.jpg",
+      "bytes": 62661,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Klapikone_on_hyva_hyvissa_kasissa.jpg",
+      "path": "assets/photos/uutiset/Klapikone_on_hyva_hyvissa_kasissa.jpg",
+      "bytes": 65988,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Koivun_oksanreiat.JPG",
+      "path": "assets/photos/uutiset/Koivun_oksanreiat.JPG",
+      "bytes": 75757,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Lapset_ansaitulla_tauolla.jpg",
+      "path": "assets/photos/uutiset/Lapset_ansaitulla_tauolla.jpg",
+      "bytes": 73863,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Lopuksi_ehti_onkimaankin.jpg",
+      "path": "assets/photos/uutiset/Lopuksi_ehti_onkimaankin.jpg",
+      "bytes": 43361,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Oksasilppuri_STIHL_GHE_150.JPG",
+      "path": "assets/photos/uutiset/Oksasilppuri_STIHL_GHE_150.JPG",
+      "bytes": 62743,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Olkkolan_ilotulitus_31122021_20053.jpg",
+      "path": "assets/photos/uutiset/Olkkolan_ilotulitus_31122021_20053.jpg",
+      "bytes": 62224,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Paasiaistiput-By_Ilja.jpg",
+      "path": "assets/photos/uutiset/Paasiaistiput-By_Ilja.jpg",
+      "bytes": 1089619,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Paimensaaren_saunaranta_uimakunnossa_17042021_1800.jpg",
+      "path": "assets/photos/uutiset/Paimensaaren_saunaranta_uimakunnossa_17042021_1800.jpg",
+      "bytes": 1797561,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Paimensaaren_suvun_talo.jpg",
+      "path": "assets/photos/uutiset/Paimensaaren_suvun_talo.jpg",
+      "bytes": 909931,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Paimensaaresta-Kuolimolle_360.JPG",
+      "path": "assets/photos/uutiset/Paimensaaresta-Kuolimolle_360.JPG",
+      "bytes": 35787,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kuvat/Rantasauna/Polli_katkeaa_naisenergialla.jpg",
+      "path": "assets/photos/uutiset/Polli_katkeaa_naisenergialla.jpg",
+      "bytes": 628253,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Portaiden_asennus_laiturille_poikaporukalla.jpg",
+      "path": "assets/photos/uutiset/Portaiden_asennus_laiturille_poikaporukalla.jpg",
+      "bytes": 124738,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Putkikaarme_laiturilla.JPG",
+      "path": "assets/photos/uutiset/Putkikaarme_laiturilla.JPG",
+      "bytes": 58895,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Puun-kaato-10.JPG",
+      "path": "assets/photos/uutiset/Puun-kaato-10.JPG",
+      "bytes": 71538,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Puun-kaato-20.JPG",
+      "path": "assets/photos/uutiset/Puun-kaato-20.JPG",
+      "bytes": 43008,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Puun-kaato-30.JPG",
+      "path": "assets/photos/uutiset/Puun-kaato-30.JPG",
+      "bytes": 60212,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Puun-kaato-40.JPG",
+      "path": "assets/photos/uutiset/Puun-kaato-40.JPG",
+      "bytes": 49763,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Uusivuosi/Raketti2.jpg",
+      "path": "assets/photos/uutiset/Raketti2.jpg",
+      "bytes": 684454,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Uusivuosi/Raketti4.jpg",
+      "path": "assets/photos/uutiset/Raketti4.jpg",
+      "bytes": 561488,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kuvat/Rantasauna/Rantasauna.PNG",
+      "path": "assets/photos/uutiset/Rantasauna.PNG",
+      "bytes": 867758,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Sauna-1-selkanoja-ja-kaide_20200606.jpg",
+      "path": "assets/photos/uutiset/Sauna-1-selkanoja-ja-kaide_20200606.jpg",
+      "bytes": 71910,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Saunan_2_arina_23042020-1.JPG",
+      "path": "assets/photos/uutiset/Saunan_2_arina_23042020-1.JPG",
+      "bytes": 56897,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/kuvat/Rantasauna/Saunan_alustan_tyhjennys.jpg",
+      "path": "assets/photos/uutiset/Saunan_alustan_tyhjennys.jpg",
+      "bytes": 3477114,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Saunan_pumpun_siemenvesiputki_23042020-1.JPG",
+      "path": "assets/photos/uutiset/Saunan_pumpun_siemenvesiputki_23042020-1.JPG",
+      "bytes": 53564,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Savitaipale_RC-kilpailu_2020_ilmoitus_taulu.JPG",
+      "path": "assets/photos/uutiset/Savitaipale_RC-kilpailu_2020_ilmoitus_taulu.JPG",
+      "bytes": 88394,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Siltakuva-01.JPG",
+      "path": "assets/photos/uutiset/Siltakuva-01.JPG",
+      "bytes": 130831,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Siltakuva-02.JPG",
+      "path": "assets/photos/uutiset/Siltakuva-02.JPG",
+      "bytes": 122514,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Suomen_lippu.JPG",
+      "path": "assets/photos/uutiset/Suomen_lippu.JPG",
+      "bytes": 13982,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Syystalkooryhma-2021-2.JPG",
+      "path": "assets/photos/uutiset/Syystalkooryhma-2021-2.JPG",
+      "bytes": 54066,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Syystalkoot-pollipino-jai-2021-1.JPG",
+      "path": "assets/photos/uutiset/Syystalkoot-pollipino-jai-2021-1.JPG",
+      "bytes": 50474,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Syystalkoot-puupainoja-2021-1.JPG",
+      "path": "assets/photos/uutiset/Syystalkoot-puupainoja-2021-1.JPG",
+      "bytes": 54562,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talkoilla_se_sujuu.jpg",
+      "path": "assets/photos/uutiset/Talkoilla_se_sujuu.jpg",
+      "bytes": 63711,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talkoomiehet_vauhdissa_23042020-1.JPG",
+      "path": "assets/photos/uutiset/Talkoomiehet_vauhdissa_23042020-1.JPG",
+      "bytes": 92916,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talkooporukkaa_laiturilla.jpg",
+      "path": "assets/photos/uutiset/Talkooporukkaa_laiturilla.jpg",
+      "bytes": 152532,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talkoot-25102025.JPG",
+      "path": "assets/photos/uutiset/Talkoot-25102025.JPG",
+      "bytes": 54893,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talkoot_2020-10-24_kuva_1.jpeg",
+      "path": "assets/photos/uutiset/Talkoot_2020-10-24_kuva_1.jpeg",
+      "bytes": 284651,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talkoot_2020-10-24_kuva_3.jpeg",
+      "path": "assets/photos/uutiset/Talkoot_2020-10-24_kuva_3.jpeg",
+      "bytes": 447572,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talkoot_2020-10-24_kuva_4.jpeg",
+      "path": "assets/photos/uutiset/Talkoot_2020-10-24_kuva_4.jpeg",
+      "bytes": 372225,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talkoot_2020-10-24_kuva_6.jpeg",
+      "path": "assets/photos/uutiset/Talkoot_2020-10-24_kuva_6.jpeg",
+      "bytes": 472335,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talkoot_22102022-kuva1.jpg",
+      "path": "assets/photos/uutiset/Talkoot_22102022-kuva1.jpg",
+      "bytes": 167765,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talkoot_22102022-kuva2.jpg",
+      "path": "assets/photos/uutiset/Talkoot_22102022-kuva2.jpg",
+      "bytes": 161366,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talvi-20210103_Kuolimo_sulana-2.JPG",
+      "path": "assets/photos/uutiset/Talvi-20210103_Kuolimo_sulana-2.JPG",
+      "bytes": 144318,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talvi-20210103_puutarha_talvehtii.jpg",
+      "path": "assets/photos/uutiset/Talvi-20210103_puutarha_talvehtii.jpg",
+      "bytes": 210779,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Talvikaupunki-kuvia-Olkkolasta.JPG",
+      "path": "assets/photos/uutiset/Talvikaupunki-kuvia-Olkkolasta.JPG",
+      "bytes": 66628,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Uusi_saunan_krilli_2023.jpg",
+      "path": "assets/photos/uutiset/Uusi_saunan_krilli_2023.jpg",
+      "bytes": 591281,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/Valokuva_saunalta_ilta-aurinkoon_23092020_KPK.jpg",
+      "path": "assets/photos/uutiset/Valokuva_saunalta_ilta-aurinkoon_23092020_KPK.jpg",
+      "bytes": 994091,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/files/paimensaaressa.asua.fi/jarven-muisti-kari-matti-vuori_page_001.jpg",
+      "path": "assets/photos/uutiset/jarven-muisti-kari-matti-vuori_page_001.jpg",
+      "bytes": 398957,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://www.paimensaari.fi/api/thumbnail?img=/files/paimensaaressa.asua.fi/20131010_135023.jpg&width=150",
+      "path": "assets/photos/uutiset/thumbnail",
+      "bytes": 12527,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-121080-2.png",
+      "bytes": 955801,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-156842-1.jpg",
+      "bytes": 89970,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-156842-2.jpg",
+      "bytes": 123238,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-176883-1.png",
+      "bytes": 136710,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-176992-1.png",
+      "bytes": 233848,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-179593-1.png",
+      "bytes": 618753,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-179599-3.png",
+      "bytes": 228933,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-181715-1.png",
+      "bytes": 1310488,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-194950-1.png",
+      "bytes": 377812,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-196186-1.png",
+      "bytes": 405066,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-202028-1.png",
+      "bytes": 805639,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-204742-1.png",
+      "bytes": 313333,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-207577-1.png",
+      "bytes": 418915,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-208234-2.png",
+      "bytes": 443711,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-208564-1.png",
+      "bytes": 270755,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-210924-1.png",
+      "bytes": 22581,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-226254-1.png",
+      "bytes": 260591,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-227145-1.png",
+      "bytes": 223739,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-235659-1.png",
+      "bytes": 102823,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-78136-1.png",
+      "bytes": 86260,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-78136-2.png",
+      "bytes": 64103,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "data:-uri",
+      "path": "assets/photos/uutiset/uutinen-78136-3.png",
+      "bytes": 70328,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381923804363_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/eu-kyltti-1381923804363_1.jpg",
+      "bytes": 1510910,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1384255260552_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/hitsauskone-1384255260552_1.jpg",
+      "bytes": 713195,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1384255253119_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/hitsauskone-2-1384255253119_1.jpg",
+      "bytes": 776719,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1385566008100_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/jakoboxi-suvanto-1-1385566008100_1.jpg",
+      "bytes": 568328,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1385566014514_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/jakoboxi-suvanto-2-1385566014514_1.jpg",
+      "bytes": 625962,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383848459644_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/jatkoskaivo-k2-1-1383848459644_1.jpg",
+      "bytes": 130648,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382449760695_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/kaapelia-kaijanlahteen-1382449760695_1.jpg",
+      "bytes": 2712082,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382011319988_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/kaapelin-alkupaan-maahanlasku-1382011319988_1.jpg",
+      "bytes": 552906,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382011328397_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/kaapelinlasku-suvannon-keskukseen-1382011328397_1.jpg",
+      "bytes": 715813,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1384255271498_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/kaivo-1384255271498_1.jpg",
+      "bytes": 1077175,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381937885763_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/kaivutyot-1381937885763_1.jpg",
+      "bytes": 4061694,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381937814602_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/kaivutyot-alkaneet-16-10-2013-1381937814602_1.jpg",
+      "bytes": 3596430,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1384255280118_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/kannen-johdot-1384255280118_1.jpg",
+      "bytes": 888055,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1383848537116_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/kauvuuurakoitsijat-poslahtovalmiina-07112013-2-1383848537116_1.jpg",
+      "bytes": 693721,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382011337585_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/ketjussa-1382011337585_1.jpg",
+      "bytes": 838524,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382011345869_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/ketjussa2-1382011345869_1.jpg",
+      "bytes": 797956,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382011404263_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/lasku-1382011404263_1.jpg",
+      "bytes": 5568422,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041435220_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennus-putken-sisaan-suvannon-ede-1382041435220_1.jpg",
+      "bytes": 1017384,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041450028_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennus-putken-sisaan-suvannon-ede-1382041450028_1.jpg",
+      "bytes": 1263774,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041466519_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-1-1382041466519_1.jpg",
+      "bytes": 1377967,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041620923_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-10-lara-1382041620923_1.jpg",
+      "bytes": 1392476,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041634131_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-11-1382041634131_1.jpg",
+      "bytes": 1213701,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041651145_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-12-arto-ja-1382041651145_1.jpg",
+      "bytes": 1566560,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041484389_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-2-1382041484389_1.jpg",
+      "bytes": 1353944,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041503664_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-3-1382041503664_1.jpg",
+      "bytes": 1766891,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041521294_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-4-1382041521294_1.jpg",
+      "bytes": 1592825,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041537153_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-5-1382041537153_1.jpg",
+      "bytes": 1324806,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041555440_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-6-1382041555440_1.jpg",
+      "bytes": 1497736,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041570316_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-7-1382041570316_1.jpg",
+      "bytes": 1324888,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041587443_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-8-1382041587443_1.jpg",
+      "bytes": 1540231,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041604068_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-17102013-9-1382041604068_1.jpg",
+      "bytes": 1528260,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041678770_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-asennustalkoot-ensimetrit-17102013-1382041678770_1.jpg",
+      "bytes": 1317887,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382041693925_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/paimensaaren-valokaapelin-ensimmaiset-kaivuumetrit-16102013-1382041693925_1.jpg",
+      "bytes": 1181920,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1384255288410_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/piuhat-1384255288410_1.jpg",
+      "bytes": 815187,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1384255297351_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/rauman-juku-1384255297351_1.jpg",
+      "bytes": 884844,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382011412448_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/talkoot-17-10-2013-1382011412448_1.jpg",
+      "bytes": 735139,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382011419154_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/talkoovakea-1382011419154_1.jpg",
+      "bytes": 627566,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382011426218_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/talkoovakea2-1382011426218_1.jpg",
+      "bytes": 675736,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381486821320_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/tien-alitus-1381486821320_1.jpg",
+      "bytes": 1150728,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1384255305463_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/tyossa-1384255305463_1.jpg",
+      "bytes": 769866,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381497369200_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/valokaapeleiden-jakokaivot-1381497369200_1.jpg",
+      "bytes": 1121508,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1382011434349_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/valokaapeli-suvannolle-17-10-2013-1382011434349_1.jpg",
+      "bytes": 783638,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1381497381588_1_orig.jpg",
+      "path": "assets/photos/valokaapeli/valokaapelikelat-1381497381588_1.jpg",
+      "bytes": 1223870,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725413064_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/2-kiljunen-simonen-1390725413064_1.jpg",
+      "bytes": 625313,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725419078_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/2-kunnanherrat-1390725419078_1.jpg",
+      "bytes": 601854,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725425491_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/2-ministeri-puhuu-1390725425491_1.jpg",
+      "bytes": 647277,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725431993_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/2-ministerin-lahja-1390725431993_1.jpg",
+      "bytes": 664835,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725438723_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/2-muusikot-1390725438723_1.jpg",
+      "bytes": 665588,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725443629_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/2-rouvat-1390725443629_1.jpg",
+      "bytes": 502200,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725450052_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/3-ministeri-puhuu-1390725450052_1.jpg",
+      "bytes": 627547,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725456034_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/3-ministerin-lahja-1390725456034_1.jpg",
+      "bytes": 606394,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725462572_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/kakkospoyta-1390725462572_1.jpg",
+      "bytes": 646368,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725468982_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/kiljunen-simonen-1390725468982_1.jpg",
+      "bytes": 606788,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725481213_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/ministeri-puhuu-1390725481213_1.jpg",
+      "bytes": 601008,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725489553_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/ministerin-lahja-1390725489553_1.jpg",
+      "bytes": 609404,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725498220_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/muusikot-1390725498220_1.jpg",
+      "bytes": 616220,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725866283_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/paimensaarilaisia-1390725866283_1.jpg",
+      "bytes": 638929,
+      "fetched": "2026-09-18"
+    },
+    {
+      "source": "https://asiakas.kotisivukone.com/files/paimensaaressa.asua.fi/.album/1390725872621_1_orig.jpg",
+      "path": "assets/photos/valokaapeliverkonkayttoonottojuhla24.1.2014/rouvat-1390725872621_1.jpg",
+      "bytes": 605279,
+      "fetched": "2026-09-18"
+    }
+  ]
+}
