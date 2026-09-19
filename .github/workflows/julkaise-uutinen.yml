@@ -21,6 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Tarkista julkaisuoikeus
+        id: oikeus
         if: >
           github.event.issue.author_association != 'OWNER' &&
           github.event.issue.author_association != 'MEMBER' &&
@@ -99,3 +100,30 @@ jobs:
           fi
           gh issue comment "${{ github.event.issue.number }}" --repo "$GITHUB_REPOSITORY" --body "$viesti"
           gh issue close "${{ github.event.issue.number }}" --repo "$GITHUB_REPOSITORY"
+
+      - name: Kerro ongelmasta lomakkeella
+        if: failure() && steps.oikeus.conclusion != 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LOKI: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          viesti=$(cat <<VIESTI
+          **Uutista ei julkaistu — jokin meni vikaan.** Sivustolla ei siis näy tätä uutista
+          eikä siihen tehtyjä muutoksia.
+
+          Kokeile näin, järjestyksessä:
+
+          1. **Odota minuutti ja tallenna lomake uudelleen** (paina Edit ja tallenna, vaikka et
+             muuttaisi mitään). Tämä riittää useimmiten: syy on yleensä se, että kaksi uutista
+             tallentui yhtä aikaa.
+          2. **Jos yritit lisätä kuvan**, poista kuva lomakkeelta ja tallenna uudelleen. Jos
+             uutinen menee silloin läpi, vika oli kuvassa — kokeile sitä pienempänä tai
+             tallenna se ensin puhelimen kuvista JPG-muodossa.
+          3. **Jos ei vieläkään onnistu**, ota yhteyttä sivuston ylläpitäjään ja lähetä hänelle
+             tämä osoite: $LOKI
+
+          Lomake jätettiin auki, jotta tämä ei unohdu. Kun julkaisu onnistuu, se sulkeutuu itsestään.
+          VIESTI
+          )
+          gh issue comment "${{ github.event.issue.number }}" --repo "$GITHUB_REPOSITORY" --body "$viesti"
+          gh issue reopen "${{ github.event.issue.number }}" --repo "$GITHUB_REPOSITORY" || true
