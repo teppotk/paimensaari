@@ -38,3 +38,12 @@ body:
         Kuvat pienennetään automaattisesti sivustoa varten; alkuperäiset
         säilyvät arkistossa.
       placeholder: Raahaa kuvat tähän.
+  - type: checkboxes
+    id: poisto
+    attributes:
+      label: Poistaminen
+      description: >
+        Kun haluat poistaa jo julkaistun uutisen sivustolta, avaa tämä lomake
+        uudelleen, rastita alla oleva ruutu ja tallenna.
+      options:
+        - label: Poista tämä uutinen sivustolta

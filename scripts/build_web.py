@@ -90,7 +90,18 @@ def resize_all(force=False):
             made += 1
             if made % 50 == 0:
                 print("  %d kuvaa valmiina..." % made)
-    print("Kuvat: %d uutta, %d ennallaan" % (made, skipped))
+    poistettu = 0
+    for kind in SIZES:
+        juuri = WEB / kind
+        for tiedosto in sorted(juuri.rglob("*.jpg")) if juuri.exists() else []:
+            rel = tiedosto.relative_to(juuri)
+            # Alkuperäinen voi olla mikä tahansa tuettu muoto, josta tehtiin .jpg
+            if not any((PHOTOS / rel).with_suffix(p).exists()
+                       for p in (".jpg", ".jpeg", ".png", ".gif", ".heic", ".webp",
+                                 ".JPG", ".JPEG", ".PNG")):
+                tiedosto.unlink()
+                poistettu += 1
+    print("Kuvat: %d uutta, %d ennallaan, %d poistettua" % (made, skipped, poistettu))
 
 
 # --------------------------------------------------------------- markdown

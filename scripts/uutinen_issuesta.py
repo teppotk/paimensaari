@@ -85,6 +85,21 @@ def lataa_kuva(url, kohde_ilman_paatetta):
     return kohde
 
 
+def poista(uutis_id):
+    """Poista uutinen ja sen kuvat arkistosta."""
+    n = 0
+    for md in UUTISET.glob("*.md"):
+        if 'news_id: "%s"' % uutis_id in md.read_text(encoding="utf-8"):
+            md.unlink()
+            print("  poistettu: %s" % md.relative_to(ROOT))
+            n += 1
+    for kuva in KUVAT.glob("uutinen-%s-*" % uutis_id):
+        kuva.unlink()
+        print("  poistettu: %s" % kuva.relative_to(ROOT))
+        n += 1
+    return n
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--numero", required=True)
@@ -103,6 +118,13 @@ def main():
     if not otsikko:
         print("VIRHE: otsikko puuttuu lomakkeelta.", file=sys.stderr)
         return 2
+
+    uutis_id_ennakko = "i" + str(args.numero)
+    if re.search(r"^\s*-\s*\[x\]", kentat.get("poistaminen", ""), re.I | re.M):
+        poistettu = poista(uutis_id_ennakko)
+        print("toimenpide=poisto")
+        print("poistettuja tiedostoja: %d" % poistettu)
+        return 0
 
     pvm = paivays(kentat.get("päivämäärä") or kentat.get("paivamaara"))
     teksti = (kentat.get("uutisen teksti") or "").strip()
@@ -154,6 +176,7 @@ def main():
     tiedosto.parent.mkdir(parents=True, exist_ok=True)
     tiedosto.write_text("\n".join(etukentat) + "\n\n" + "\n\n".join(runko).strip() + "\n", encoding="utf-8")
     print("uutinen: %s" % tiedosto.relative_to(ROOT))
+    print("toimenpide=julkaisu")
     print("uutisen_osoite=uutiset.html#%s" % uutis_id)
     return 0
 

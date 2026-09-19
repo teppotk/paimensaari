@@ -53,7 +53,7 @@ jobs:
             --otsikko "$OTSIKKO" \
             --body-file "$RUNNER_TEMP/runko.md" \
             --url "${{ github.event.issue.html_url }}" | tee "$RUNNER_TEMP/tulos.txt"
-          grep -o 'uutisen_osoite=.*' "$RUNNER_TEMP/tulos.txt" >> "$GITHUB_ENV"
+          grep -E '^(uutisen_osoite|toimenpide)=' "$RUNNER_TEMP/tulos.txt" >> "$GITHUB_ENV"
 
       - name: Päivitä sivuston data ja kuvat
         run: python3 scripts/build_web.py
@@ -64,18 +64,27 @@ jobs:
         run: |
           git config user.name "Paimensaari-botti"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content assets data
+          git add -A content assets data
           if git diff --cached --quiet; then
             echo "Ei muutoksia tallennettavaksi."
             exit 0
           fi
-          git commit -m "$(printf '%s\n\n%s' "${OTSIKKO}" "Julkaistu uutislomakkeelta #${{ github.event.issue.number }}.")"
+          if [ "$toimenpide" = "poisto" ]; then
+            teko="Poistettu uutislomakkeelta"
+          else
+            teko="Julkaistu uutislomakkeelta"
+          fi
+          git commit -m "$(printf '%s\n\n%s #%s.' "${OTSIKKO}" "$teko" "${{ github.event.issue.number }}")"
           git push
 
       - name: Vahvista ja sulje lomake
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          viesti=$(printf 'Uutinen on julkaistu: https://teppotk.github.io/paimensaari/%s\n\nSivujen päivittyminen kestää pari minuuttia. Jos haluat korjata uutista, muokkaa tätä lomaketta — korjaus päivittyy sivuille itsestään.' "$uutisen_osoite")
+          if [ "$toimenpide" = "poisto" ]; then
+            viesti='Uutinen on poistettu sivustolta. Jos poisto oli vahinko, poista rasti Poistaminen-kohdasta ja tallenna — uutinen palaa sivuille.'
+          else
+            viesti=$(printf 'Uutinen on julkaistu: https://teppotk.github.io/paimensaari/%s\n\nSivujen päivittyminen kestää pari minuuttia. Jos haluat korjata uutista, muokkaa tätä lomaketta — korjaus päivittyy sivuille itsestään.' "$uutisen_osoite")
+          fi
           gh issue comment "${{ github.event.issue.number }}" --repo "$GITHUB_REPOSITORY" --body "$viesti"
           gh issue close "${{ github.event.issue.number }}" --repo "$GITHUB_REPOSITORY"

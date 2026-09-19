@@ -34,9 +34,11 @@ sivuille itsestään. Sama koskee kuvien lisäämistä tai poistamista.
 
 ## Uutisen poistaminen
 
-Poistaminen on toistaiseksi ylläpitäjän tehtävä: uutinen poistetaan
-`content/uutiset/`-hakemistosta, minkä jälkeen sivusto päivittyy itsestään.
-Pyydä poistoa puheenjohtajalta tai sivuston ylläpitäjältä.
+Avaa uutisen oma lomake samalla tavalla kuin korjatessasi, rastita lopussa
+oleva **Poista tämä uutinen sivustolta** ja tallenna. Uutinen ja sen kuvat
+katoavat sivuilta noin minuutissa.
+
+Jos poistit vahingossa, poista rasti ja tallenna uudelleen — uutinen palaa.
 
 ## Mitä konepellin alla tapahtuu
 
