@@ -1,0 +1,79 @@
+name: Julkaise uutinen
+
+# Uutislomakkeen (issue) lähettäminen julkaisee uutisen sivuille.
+# Julkaista voivat vain repositorion jäsenet; muiden lähetykset hylätään.
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: sivuston-paivitys
+  cancel-in-progress: false
+
+jobs:
+  julkaise:
+    if: contains(github.event.issue.labels.*.name, 'uutinen')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tarkista julkaisuoikeus
+        if: >
+          github.event.issue.author_association != 'OWNER' &&
+          github.event.issue.author_association != 'MEMBER' &&
+          github.event.issue.author_association != 'COLLABORATOR'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" --repo "$GITHUB_REPOSITORY" --body \
+            "Kiitos ehdotuksesta. Uutisen voi julkaista vain yhdistyksen ylläpitäjä, joten tätä ei julkaistu automaattisesti. Ylläpitäjä käy viestin läpi."
+          echo "Lähettäjällä ei ole julkaisuoikeutta - lopetetaan." >&2
+          exit 1
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Asenna kuvakirjastot
+        run: pip install --quiet pillow pillow-heif
+
+      - name: Kirjoita uutinen arkistoon
+        env:
+          RUNKO: ${{ github.event.issue.body }}
+        run: |
+          printf '%s' "$RUNKO" > "$RUNNER_TEMP/runko.md"
+          python3 scripts/uutinen_issuesta.py \
+            --numero "${{ github.event.issue.number }}" \
+            --body-file "$RUNNER_TEMP/runko.md" \
+            --url "${{ github.event.issue.html_url }}" | tee "$RUNNER_TEMP/tulos.txt"
+          grep -o 'uutisen_osoite=.*' "$RUNNER_TEMP/tulos.txt" >> "$GITHUB_ENV"
+
+      - name: Päivitä sivuston data ja kuvat
+        run: python3 scripts/build_web.py
+
+      - name: Tallenna muutokset
+        env:
+          OTSIKKO: ${{ github.event.issue.title }}
+        run: |
+          git config user.name "Paimensaari-botti"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content assets data
+          if git diff --cached --quiet; then
+            echo "Ei muutoksia tallennettavaksi."
+            exit 0
+          fi
+          git commit -m "$(printf '%s\n\n%s' "${OTSIKKO}" "Julkaistu uutislomakkeelta #${{ github.event.issue.number }}.")"
+          git push
+
+      - name: Vahvista ja sulje lomake
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          viesti=$(printf 'Uutinen on julkaistu: https://teppotk.github.io/paimensaari/%s\n\nSivujen päivittyminen kestää pari minuuttia. Jos haluat korjata uutista, muokkaa tätä lomaketta — korjaus päivittyy sivuille itsestään.' "$uutisen_osoite")
+          gh issue comment "${{ github.event.issue.number }}" --repo "$GITHUB_REPOSITORY" --body "$viesti"
+          gh issue close "${{ github.event.issue.number }}" --repo "$GITHUB_REPOSITORY"

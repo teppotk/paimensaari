@@ -33,10 +33,43 @@ def web_path(rel):
 
 
 # ------------------------------------------------------------------- images
+def _resize_pillow(src, dest, px):
+    """Pillow-polku: toimii myös GitHubin Linux-koneissa."""
+    try:
+        from PIL import Image, ImageOps
+    except ImportError:
+        return False
+    try:
+        import pillow_heif  # puhelinten HEIC-kuvat
+
+        pillow_heif.register_heif_opener()
+    except ImportError:
+        pass
+    with Image.open(src) as im:
+        im = ImageOps.exif_transpose(im)          # kunnioita kameran kiertotietoa
+        im.thumbnail((px, px))
+        im.convert("RGB").save(
+            dest, "JPEG", quality=int(QUALITY), optimize=True, progressive=True
+        )
+    return True
+
+
+def _resize_sips(src, dest, px):
+    """macOS-polku, kun Pillow'ta ei ole asennettu."""
+    r = subprocess.run(
+        ["sips", "-Z", str(px), "-s", "format", "jpeg",
+         "-s", "formatOptions", QUALITY, str(src), "--out", str(dest)],
+        capture_output=True,
+    )
+    if r.returncode != 0:
+        raise RuntimeError(r.stderr.decode()[:200])
+    return True
+
+
 def resize_all():
     made = skipped = 0
     for src in sorted(PHOTOS.rglob("*")):
-        if not src.is_file() or src.suffix.lower() not in (".jpg", ".jpeg", ".png"):
+        if not src.is_file() or src.suffix.lower() not in (".jpg", ".jpeg", ".png", ".gif", ".heic", ".webp"):
             continue
         rel = src.relative_to(PHOTOS)
         for kind, px in SIZES.items():
@@ -45,13 +78,11 @@ def resize_all():
                 skipped += 1
                 continue
             dest.parent.mkdir(parents=True, exist_ok=True)
-            r = subprocess.run(
-                ["sips", "-Z", str(px), "-s", "format", "jpeg",
-                 "-s", "formatOptions", QUALITY, str(src), "--out", str(dest)],
-                capture_output=True,
-            )
-            if r.returncode != 0:
-                print("  !! %s: %s" % (rel, r.stderr.decode()[:120]))
+            try:
+                if not _resize_pillow(src, dest, px):
+                    _resize_sips(src, dest, px)
+            except Exception as e:
+                print("  !! %s: %s" % (rel, e))
                 continue
             made += 1
             if made % 50 == 0:

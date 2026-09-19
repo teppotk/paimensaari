@@ -1,0 +1,44 @@
+name: Päivitä sivuston data
+
+# Kun arkistoa muokataan suoraan (esim. korjataan kirjoitusvirhe GitHubin
+# selainkäyttöliittymässä), sivuston data ja pienennetyt kuvat päivitetään.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "assets/photos/**"
+      - "scripts/build_web.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sivuston-paivitys
+  cancel-in-progress: false
+
+jobs:
+  paivita:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Asenna kuvakirjastot
+        run: pip install --quiet pillow pillow-heif
+      - name: Rakenna data ja kuvat
+        run: python3 scripts/build_web.py
+      - name: Tallenna muutokset
+        run: |
+          git config user.name "Paimensaari-botti"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/web data
+          if git diff --cached --quiet; then
+            echo "Data oli jo ajan tasalla."
+            exit 0
+          fi
+          git commit -m "Päivitä sivuston data ja kuvat arkistosta"
+          git push

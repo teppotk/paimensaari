@@ -57,3 +57,12 @@ kuvat säilyvät `assets/photos/`-hakemistossa säilytyskopioina.
 python3 scripts/build_web.py            # pienennä kuvat ja päivitä JSON
 python3 scripts/build_web.py --data     # pelkkä JSON
 ```
+
+## Vaihe 3: uutisten julkaisu ilman koodia
+
+Yhdistyksen väki julkaisee uutisen selaimesta täytettävällä
+[uutislomakkeella](https://github.com/teppotk/paimensaari/issues/new?template=uutinen.yml);
+GitHub Actions kirjoittaa uutisen arkistoon, tallentaa kuvat, pienentää ne ja päivittää
+sivuston datan. Ohje hallitukselle on [OHJE.md](OHJE.md)-tiedostossa.
+
+Julkaista voivat vain ne, joilla on kirjoitusoikeus tähän repositorioon.

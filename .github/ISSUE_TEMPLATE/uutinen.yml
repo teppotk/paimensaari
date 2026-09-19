@@ -1,0 +1,44 @@
+name: Uusi uutinen
+description: Julkaise uutinen Paimensaaren sivuille
+title: "Uutinen: "
+labels: ["uutinen"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Täytä lomake ja paina lopuksi vihreää **Create**-painiketta.
+        Uutinen ilmestyy sivuille noin minuutin kuluessa, ja saat tähän
+        vahvistuksen linkin kanssa.
+  - type: input
+    id: otsikko
+    attributes:
+      label: Otsikko
+      placeholder: Talkoot rantasaunalla la 25.10. klo 10
+    validations:
+      required: true
+  - type: input
+    id: paivamaara
+    attributes:
+      label: Päivämäärä
+      description: Muodossa 25.10.2026. Tyhjänä käytetään tätä päivää.
+      placeholder: 25.10.2026
+  - type: textarea
+    id: teksti
+    attributes:
+      label: Uutisen teksti
+      description: Tavallista tekstiä. Tyhjä rivi aloittaa uuden kappaleen.
+      placeholder: |
+        Syyssiivous- ja polttopuutalkoot pidettiin lauantaina rantasaunalla.
+
+        Pientä suupalaa oli tarjolla ja saunat kuumana. Kiitos ahkeroijille!
+    validations:
+      required: true
+  - type: textarea
+    id: kuvat
+    attributes:
+      label: Kuvat
+      description: >
+        Raahaa valokuvat tähän kenttään tai liitä ne leikepöydältä.
+        Kuvat pienennetään automaattisesti sivustoa varten; alkuperäiset
+        säilyvät arkistossa.
+      placeholder: Raahaa kuvat tähän.

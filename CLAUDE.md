@@ -47,6 +47,10 @@ Consequences to work around, not to "fix":
 
 ## Commands
 
+The association publishes news through a GitHub issue form, not by editing files. Only
+`OWNER`/`MEMBER`/`COLLABORATOR` submissions publish — the repo is public, so that check is
+what keeps strangers from posting to the site. Don't loosen it without asking.
+
 ```bash
 # Local preview (no build); open http://localhost:8000
 python3 -m http.server 8000
@@ -63,7 +67,7 @@ python3 scripts/archive.py news
 python3 scripts/archive.py all --offline
 
 # Rebuild the published site's data and downscaled images from the archive
-python3 scripts/build_web.py            # images (sips) + JSON, minutes
+python3 scripts/build_web.py            # images + JSON, minutes
 python3 scripts/build_web.py --data     # JSON only, seconds
 ```
 
@@ -88,10 +92,19 @@ listed in the nav, and check narrow (≈375px) and wide viewports.
 - `archive/manifest.json` — every downloaded file with its source URL, size and fetch date.
 - `assets/web/thumb/`, `assets/web/large/` — what the pages actually serve: 560 px and 1400 px
   JPEGs, generated from the originals. Always JPEG, whatever the original format was.
+  Resizing uses Pillow when it is installed (CI) and falls back to macOS `sips` (this machine),
+  so output differs slightly between the two — regenerate a whole directory, not single files,
+  if that ever matters.
 - `assets/liitteet/` — PDFs that used to live on the old host.
 - `data/uutiset.json`, `data/galleria.json` — what the browser loads.
 - `scripts/archive.py` — the archiver (subcommands `pages`, `news`, `albums`, `all`).
 - `scripts/build_web.py` — derives `assets/web/` and `data/` from the archive.
+- `scripts/uutinen_issuesta.py` — turns a submitted news form (a GitHub issue) into an
+  archive entry plus downloaded photos.
+- `.github/workflows/` — `julkaise-uutinen.yml` publishes from the news form;
+  `paivita-sivusto.yml` rebuilds `data/` and `assets/web/` after any edit to the archive.
+  Both commit to `main`; they share a `concurrency` group so they cannot race.
+- `OHJE.md` — the association's own instructions, in Finnish. Keep it non-technical.
 - `scripts/html2md.py` — stdlib HTML→Markdown converter written for this site's tag
   vocabulary. Change it and re-run with `--offline` rather than hand-editing `content/`.
 - `index.html` plus one file per section at the repo root — what Pages actually serves.
