@@ -6,8 +6,13 @@ body:
     attributes:
       value: |
         Yläreunan **Add a title** on uutisen otsikko — se näkyy sivustolla
-        sellaisenaan. Täytä sen jälkeen teksti ja kuvat, ja paina lopuksi
-        vihreää **Create**-painiketta.
+        sellaisenaan. Jos uutinen koskee tapahtumaa, kirjoita tapahtuman
+        ajankohta otsikkoon, esimerkiksi *Talkoot 10.10. klo 12*.
+        Alempi Päivämäärä-kenttä on eri asia: se kertoo, milloin uutinen on
+        kirjoitettu, ja sen mukaan uutiset järjestyvät sivustolla.
+
+        Täytä sen jälkeen teksti ja kuvat, ja paina lopuksi vihreää
+        **Create**-painiketta.
         Uutinen ilmestyy sivuille noin minuutin kuluessa, ja saat tähän
         vahvistuksen linkin kanssa.
   - type: input
@@ -15,8 +20,9 @@ body:
     attributes:
       label: Päivämäärä
       description: >
-        Yleensä tämä on jo valmiina. Tyhjänä käytetään kuluvaa päivää.
-        Menneen tapahtuman voi päivätä muodossa 25.10.2026.
+        Milloin uutinen on kirjoitettu — ei tapahtuman päivämäärä.
+        Tapahtuman ajankohta kirjoitetaan otsikkoon ja tekstiin.
+        Yleensä tämä kenttä on jo valmiina; tyhjänä käytetään kuluvaa päivää.
       placeholder: esim. 25.10.2026
   - type: textarea
     id: teksti

@@ -18,9 +18,13 @@ Ilman ylläpitäjän oikeuksia lähetetty uutinen ei julkaistu automaattisesti.
    GitHub kysyy ensin tunnuksesi, jos et ole kirjautuneena.
 2. Kirjoita uutisen otsikko yläreunan **Add a title** -kenttään ja teksti
    Uutisen teksti -kenttään. Tyhjä rivi aloittaa uuden kappaleen.
-3. Päivämäärä muodossa `25.10.2026`. Jos jätät sen tyhjäksi, käytetään kuluvaa päivää.
-4. Raahaa valokuvat Kuvat-kenttään. Niitä voi olla useita.
-5. Paina vihreää **Create**-painiketta.
+3. Jos uutinen koskee tapahtumaa, kirjoita tapahtuman ajankohta otsikkoon:
+   *Talkoot 10.10. klo 12*.
+4. **Päivämäärä-kenttä tarkoittaa uutisen kirjoituspäivää**, ei tapahtuman
+   päivää. Sen mukaan uutiset järjestyvät sivustolla. Kenttä on yleensä
+   valmiiksi täytetty; tyhjänä käytetään kuluvaa päivää.
+5. Raahaa valokuvat Kuvat-kenttään. Niitä voi olla useita.
+6. Paina vihreää **Create**-painiketta.
 
 Noin minuutin kuluttua lomakkeelle ilmestyy vahvistus ja linkki julkaistuun uutiseen.
 Sivujen päivittyminen kestää tämän jälkeen vielä pari minuuttia.
