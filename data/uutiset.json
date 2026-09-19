@@ -1,5 +1,12 @@
 [
  {
+  "id": "i3",
+  "date": "2026-10-20",
+  "title": "testitalkoot saunalla",
+  "kuva": "assets/web/thumb/uutiset/uutinen-i3-1.jpg",
+  "html": "<p>höpöpö höpö teksti</p>\n<p><img src=\"assets/web/large/uutiset/uutinen-i3-1.jpg\" alt=\"\" loading=\"lazy\"></p>"
+ },
+ {
   "id": "i1",
   "date": "2026-09-19",
   "title": "Uutisten julkaisua testataan sivustolla",
