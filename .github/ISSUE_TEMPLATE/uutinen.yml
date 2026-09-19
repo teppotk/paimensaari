@@ -5,8 +5,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Kirjoita uutisen otsikko yläreunan **Add a title** -kenttään, täytä loput
-        ja paina lopuksi vihreää **Create**-painiketta.
+        Yläreunan **Add a title** on uutisen otsikko — se näkyy sivustolla
+        sellaisenaan. Täytä sen jälkeen teksti ja kuvat, ja paina lopuksi
+        vihreää **Create**-painiketta.
         Uutinen ilmestyy sivuille noin minuutin kuluessa, ja saat tähän
         vahvistuksen linkin kanssa.
   - type: input
