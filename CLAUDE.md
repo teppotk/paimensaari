@@ -34,7 +34,9 @@ Consequences to work around, not to "fix":
 - There are no template partials. Header/nav/footer markup is **duplicated in every HTML
   page**. When changing shared markup, change it in *all* pages (`grep -l '<nav' *.html`) —
   a change applied to one page only is a bug. Exactly one nav link per page carries
-  `aria-current="page"`.
+  `aria-current="page"`. The nav's last item (`.navi__toiminto`, "Lisää uutinen") is not a page
+  but a link to the GitHub news form, and it stays visible to everyone — GitHub's own login and
+  the workflow's membership check are what gate publishing, not hiding the link.
 - **Every path is relative, never root-relative.** The site has to work both at
   `teppotk.github.io/paimensaari/` and at the domain root; a leading `/` breaks the first.
 - News and gallery content is invisible to search engines and to a reader with JavaScript off.
