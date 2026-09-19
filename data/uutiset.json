@@ -1,5 +1,12 @@
 [
  {
+  "id": "i1",
+  "date": "2026-09-19",
+  "title": "Uutisten julkaisua testataan",
+  "kuva": "assets/web/thumb/uutiset/uutinen-i1-1.jpg",
+  "html": "<p>Tämä uutinen on julkaistu kokeeksi, kun sivuston uutisten julkaisua testataan. Jos satuit lukemaan tämän, mikään ei ole vialla.</p>\n<p>Sivusto on vielä rakenteilla eikä se ole korvannut osoitetta paimensaari.fi. Vanhan sivuston uutiset vuodesta 2013 alkaen ja kaikki valokuvat ovat jo mukana.</p>\n<p>Tämä testiuutinen poistetaan myöhemmin.</p>\n<p><img src=\"assets/web/large/uutiset/uutinen-i1-1.jpg\" alt=\"\" loading=\"lazy\"></p>"
+ },
+ {
   "id": "252781",
   "date": "2026-03-22",
   "title": "Paimensaaren asukasyhdistyksen vuosikokous ti 31.03.2026 klo 18",
