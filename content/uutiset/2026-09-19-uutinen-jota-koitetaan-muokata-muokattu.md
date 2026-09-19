@@ -1,5 +1,5 @@
 ---
-title: "Uutinen jota koitetaan muokata"
+title: "Uutinen jota koitetaan muokata - muokattu"
 date: "2026-09-19"
 news_id: "i5"
 source_url: "https://github.com/teppotk/paimensaari/issues/5"
