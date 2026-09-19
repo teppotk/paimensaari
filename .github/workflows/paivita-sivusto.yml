@@ -41,4 +41,15 @@ jobs:
             exit 0
           fi
           git commit -m "Päivitä sivuston data ja kuvat arkistosta"
-          git push
+          # Toinen ajo on voinut pushata sillä välin: yhdistä ja yritä uudelleen.
+          for yritys in 1 2 3 4 5; do
+            if git push; then
+              echo "Tallennettu (yritys $yritys)."
+              exit 0
+            fi
+            echo "Push hylättiin, haetaan etähaaran muutokset (yritys $yritys)."
+            git pull --rebase --autostash origin main || exit 1
+            sleep $((RANDOM % 4 + 2))
+          done
+          echo "Push ei onnistunut viidellä yrityksellä." >&2
+          exit 1
