@@ -89,12 +89,17 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--numero", required=True)
     ap.add_argument("--body-file", required=True)
+    ap.add_argument("--otsikko", default="", help="issuen otsikko = uutisen otsikko")
     ap.add_argument("--url", default="")
     args = ap.parse_args()
 
     body = Path(args.body_file).read_text(encoding="utf-8")
     kentat = osiot(body)
-    otsikko = (kentat.get("otsikko") or "").strip()
+    # Otsikko tulee issuen omasta otsikosta; vanhoissa lomakkeissa se oli
+    # erillisenä kenttänä, joten sitä käytetään yhä varalla.
+    otsikko = re.sub(r"^\s*uutinen\s*:\s*", "", args.otsikko, flags=re.I).strip()
+    if not otsikko:
+        otsikko = (kentat.get("otsikko") or "").strip()
     if not otsikko:
         print("VIRHE: otsikko puuttuu lomakkeelta.", file=sys.stderr)
         return 2

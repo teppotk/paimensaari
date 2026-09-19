@@ -16,7 +16,8 @@ Ilman ylläpitäjän oikeuksia lähetetty uutinen ei julkaistu automaattisesti.
 1. Paina sivuston valikossa **Lisää uutinen** — tai avaa
    **[uutislomake](https://github.com/teppotk/paimensaari/issues/new?template=uutinen.yml)** suoraan.
    GitHub kysyy ensin tunnuksesi, jos et ole kirjautuneena.
-2. Kirjoita otsikko ja teksti. Tyhjä rivi aloittaa uuden kappaleen.
+2. Kirjoita uutisen otsikko yläreunan **Add a title** -kenttään ja teksti
+   Uutisen teksti -kenttään. Tyhjä rivi aloittaa uuden kappaleen.
 3. Päivämäärä muodossa `25.10.2026`. Jos jätät sen tyhjäksi, käytetään kuluvaa päivää.
 4. Raahaa valokuvat Kuvat-kenttään. Niitä voi olla useita.
 5. Paina vihreää **Create**-painiketta.

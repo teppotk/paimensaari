@@ -1,21 +1,14 @@
 name: Uusi uutinen
 description: Julkaise uutinen Paimensaaren sivuille
-title: "Uutinen: "
 labels: ["uutinen"]
 body:
   - type: markdown
     attributes:
       value: |
-        Täytä lomake ja paina lopuksi vihreää **Create**-painiketta.
+        Kirjoita uutisen otsikko yläreunan **Add a title** -kenttään, täytä loput
+        ja paina lopuksi vihreää **Create**-painiketta.
         Uutinen ilmestyy sivuille noin minuutin kuluessa, ja saat tähän
         vahvistuksen linkin kanssa.
-  - type: input
-    id: otsikko
-    attributes:
-      label: Otsikko
-      placeholder: Talkoot rantasaunalla la 25.10. klo 10
-    validations:
-      required: true
   - type: input
     id: paivamaara
     attributes:
