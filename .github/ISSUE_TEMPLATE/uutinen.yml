@@ -14,8 +14,10 @@ body:
     id: paivamaara
     attributes:
       label: Päivämäärä
-      description: Muodossa 25.10.2026. Tyhjänä käytetään tätä päivää.
-      placeholder: 25.10.2026
+      description: >
+        Yleensä tämä on jo valmiina. Tyhjänä käytetään kuluvaa päivää.
+        Menneen tapahtuman voi päivätä muodossa 25.10.2026.
+      placeholder: esim. 25.10.2026
   - type: textarea
     id: teksti
     attributes:

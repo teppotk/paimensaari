@@ -26,6 +26,16 @@
     elementti.appendChild(p);
   };
 
+  /* ------------------------------------------- uutislomakkeen esitäyttö */
+  // GitHubin lomakekentän voi esitäyttää osoitteen parametrilla (kentän id).
+  // Näin päivämääräkenttä on valmiiksi tätä päivää; tyhjänäkin se toimii.
+  var lisaa = document.querySelector("[data-lisaa-uutinen]");
+  if (lisaa) {
+    var nyt = new Date();
+    var tanaan = nyt.getDate() + "." + (nyt.getMonth() + 1) + "." + nyt.getFullYear();
+    lisaa.href += "&paivamaara=" + encodeURIComponent(tanaan);
+  }
+
   /* ---------------------------------------------------- etusivun uutiset */
   var tuoreet = document.querySelector("[data-tuoreet]");
   if (tuoreet) {
