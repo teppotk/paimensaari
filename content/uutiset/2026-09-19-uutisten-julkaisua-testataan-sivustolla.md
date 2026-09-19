@@ -1,5 +1,5 @@
 ---
-title: "Uutisten julkaisua testataan"
+title: "Uutisten julkaisua testataan sivustolla"
 date: "2026-09-19"
 news_id: "i1"
 source_url: "https://github.com/teppotk/paimensaari/issues/1"
