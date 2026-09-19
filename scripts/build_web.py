@@ -66,7 +66,7 @@ def _resize_sips(src, dest, px):
     return True
 
 
-def resize_all():
+def resize_all(force=False):
     made = skipped = 0
     for src in sorted(PHOTOS.rglob("*")):
         if not src.is_file() or src.suffix.lower() not in (".jpg", ".jpeg", ".png", ".gif", ".heic", ".webp"):
@@ -74,7 +74,10 @@ def resize_all():
         rel = src.relative_to(PHOTOS)
         for kind, px in SIZES.items():
             dest = WEB / kind / web_path(rel)
-            if dest.exists() and dest.stat().st_mtime >= src.stat().st_mtime:
+            # Pelkkä olemassaolo riittää ohitukseen: git ei säilytä aikaleimoja,
+            # joten aikavertailu pakottaisi palvelimella kaikkien kuvien
+            # uudelleenluonnin. Uudelleenluonti tehdään --force-valitsimella.
+            if dest.exists() and not force:
                 skipped += 1
                 continue
             dest.parent.mkdir(parents=True, exist_ok=True)
@@ -217,9 +220,10 @@ def _write(path, payload):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--data", action="store_true", help="skip image resizing")
+    ap.add_argument("--force", action="store_true", help="regenerate every derivative image")
     args = ap.parse_args()
     if not args.data:
-        resize_all()
+        resize_all(force=args.force)
     news = build_news()
     albums = build_gallery()
     print("Data: %d uutista, %d albumia, %d kuvaa" % (len(news), len(albums), sum(len(a["photos"]) for a in albums)))
