@@ -53,6 +53,15 @@ The association publishes news through a GitHub issue form, not by editing files
 `OWNER`/`MEMBER`/`COLLABORATOR` submissions publish — the repo is public, so that check is
 what keeps strangers from posting to the site. Don't loosen it without asking.
 
+The same form handles the whole lifecycle: editing the issue republishes (the old Markdown file
+is deleted first, so a renamed headline leaves no duplicate), and ticking "Poista tämä uutinen
+sivustolta" deletes the item and its photos. News published this way has `news_id: "i<issue>"`,
+which keeps it from colliding with the archived numeric ids.
+
+Two workflows commit to `main`, so **every push from CI must survive a race**: both pull-rebase
+and retry up to five times. A lost race used to fail the job silently, and the news simply did
+not update. On failure the workflow now comments on the issue and reopens it.
+
 ```bash
 # Local preview (no build); open http://localhost:8000
 python3 -m http.server 8000
