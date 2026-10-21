@@ -214,7 +214,8 @@ dialog.katselin {
   cursor: zoom-out;   /* kuvan ulkopuolelle klikkaaminen sulkee */
 }
 dialog.katselin[open] { display: flex; flex-direction: column; justify-content: center; }
-.katselin__kuva, .katselin__teksti, .katselin__ohjaus { cursor: auto; }
+.katselin__teksti, .katselin__ohjaus { cursor: auto; }
+.katselin__kuva { cursor: pointer; }   /* kuvan klikkaus = seuraava kuva */
 dialog.katselin::backdrop { background: rgba(10, 18, 17, 0.92); }
 .katselin__kuva { max-width: min(96vw, 1400px); max-height: 82vh; object-fit: contain; display: block; margin-inline: auto; background: #0a1211; }
 .katselin__teksti { color: #e7ece9; text-align: center; padding: 0.7rem 1rem 0; font-size: 0.95rem; }

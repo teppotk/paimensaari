@@ -174,6 +174,8 @@
     katselin.querySelector("[data-edellinen]").addEventListener("click", function () { siirry(-1); });
     katselin.querySelector("[data-seuraava]").addEventListener("click", function () { siirry(1); });
     katselin.querySelector("[data-sulje]").addEventListener("click", function () { katselin.close(); });
+    // Klikkaus itse kuvaan vie seuraavaan kuvaan, kuten Seuraava-nappi.
+    katselinKuva.addEventListener("click", function () { siirry(1); });
     // Klikkaus kuvan ulkopuolelle (tausta) sulkee katselimen; Esc toimii jo itsestään.
     katselin.addEventListener("click", function (e) {
       if (e.target === katselin) katselin.close();
